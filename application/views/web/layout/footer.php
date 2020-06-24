@@ -33,31 +33,14 @@
 
                         <div class="col-sm-3">
                             <h3>Contact Us</h3>
-                           <p><i class="fa fa-map"></i> 9464 Heather Ave. 
-                            Tewksbury, MA 01876</p>
-                            <p><i class="fa fa-phone"></i> +91-1800 000 0000</p>
-                            <p><i class="fa fa-envelope"></i><a href="#"> info@bosssky.com</a></p>
+                           <p><i class="fa fa-map"></i> BOSSSKY INNOVATION PVT LTD<br/> 
+Shiv Shakti Tower
+4/35 , Vibhav Khand gomatinagar Lucknow  
+Pin 226010
+Near Mantri Awash</p>
+                            <p><i class="fa fa-phone"></i> +91-9044075515</p>
+                            <p><i class="fa fa-envelope"></i><a href="mailto:bimtinstitute.com"> info@bimtinstitute.com</a></p>
                         </div>
-                        <!-- <div class="foot-nav">
-                            <h3>Learning Experience</h3>
-                            <ul>
-                                <li><a href="#">Course Preparations</a></li>
-                                <li><a href="#">Guided lessons</a></li>
-                                <li><a href="#">Interactive Practice</a></li>
-                                <li><a href="#">Virtual Classroom</a></li>
-                                <li><a href="#">Peer Learning</a></li>
-                            </ul>
-                        </div> -->
-                    <!-- </div> -->
-                    <!-- <div class="col-sm-3">
-                        <div class="footer-logo hidden-xs"><a href="index-2.html"><img src="images/footer-logo.png" class="img-responsive" alt=""></a></div>
-                        <p>© 2018 <span>Edumart</span>. All rights reserved</p>
-                        <ul class="terms clearfix">
-                            <li><a href="terms.html">TERMS OF USE</a></li>
-                            <li><a href="privacy.html">PRIVACY POLICY</a></li>
-                            <li><a href="#">SITEMAP</a></li>
-                        </ul>
-                    </div> -->
                 </div>
             </div>
             <!-- End Footer Top --> 

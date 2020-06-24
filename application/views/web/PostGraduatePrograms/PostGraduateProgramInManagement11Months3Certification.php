@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,7 +23,7 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> –  Gives in-depth info about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> –  Gives in-depth info about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>Post Graduate Program in Data Science, as an industry is set for exponential growth.</p> -->
@@ -171,7 +171,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>     
+                <li>Exam Fees and GST 18% applicable. </li>     
             </ul>
         </div>
     </div>

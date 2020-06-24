@@ -23,10 +23,10 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Month</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course by BIMT India</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best-suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> How do I earn the Post Graduate Program in Digital Marketing:-&nbsp;</strong>Talks about Requirement you will have to fulfill to earn this Certificate</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> How do I earn the Post Graduate Program in Digital Marketing:-&nbsp;</strong>Talks about Requirement you will have to fulfill to earn this Certificate.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> Course Highlights-&nbsp;</strong></p>
                     <ul class="content">
                         <li>24×7 Online Access – 24×7 Access to Course Material</li>
@@ -41,7 +41,7 @@
                     </div>
                     <h6 class="text-danger">Executive Program in  Digital Marketing </h6><br>
 
-                    <p>Executive Program in Digital Marketing is becoming a must have skill set as it now becomes imperative for marketers to reach out using the ever-growing online platforms like search, social media, mobile enabled web etc. BIMT ’s Online Digital Marketing  Program courses have been designed to give a thorough understanding of digital marketing concepts to empower marketers, entrepreneurs and professionals for achieving their marketing objectives. With 150,000 Digital Marketing career opportunities opening up by 2016 as forecast by Industry experts evolve with BIMT online into a Executive Program in Digital Marketing .
+                    <p>Executive Program in Digital Marketing is becoming a must-have skillset as it now becomes imperative for marketers to reach out using the ever-growing online platforms like search, social media, mobile-enabled web, etc. BIMT ’s Online Digital Marketing  Program courses have been designed to give a thorough understanding of digital marketing concepts to empower marketers, entrepreneurs, and professionals for achieving their marketing objectives. With 150,000 Digital Marketing career opportunities opening up by 2016 as forecast by Industry experts evolve with BIMT online into an Executive Program in Digital Marketing.
                     </p>
                 </div>
                 <div class="col-md-3 ">

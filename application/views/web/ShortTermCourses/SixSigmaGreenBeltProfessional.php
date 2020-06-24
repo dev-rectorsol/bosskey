@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -34,11 +34,11 @@ Start Banner -->
                     <div class="row">
                         <div class="col-sm-12">
                         <ul class="">
-                            <li>Become a key stakeholder in leading, and implementing lean six sigma projects in your organization</li>
-                            <li>Describe how to identify an improvement project in the Define phase</li>
-                            <li>Explain how to measure process and product in the Measure phase</li>
-                            <li>Perform data analysis and hypothesis testing in the Analyze phase</li>
-                            <li>Identify the possible improvement actions for the performance of variations in the Improve phase</li>
+                            <li>Become a key stakeholder in leading, and implementing lean six sigma projects in your organization.</li>
+                            <li>Describe how to identify an improvement project in the Define phase.</li>
+                            <li>Explain how to measure process and product in the Measure phase.</li>
+                            <li>Perform data analysis and hypothesis testing in the Analyze phase.</li>
+                            <li>Identify the possible improvement actions for the performance of variations in the Improve phase.</li>
                             <li>Define efficient operating levels for inputs and outputs in the Control phase.</li>
                         </ul>
                     </div>

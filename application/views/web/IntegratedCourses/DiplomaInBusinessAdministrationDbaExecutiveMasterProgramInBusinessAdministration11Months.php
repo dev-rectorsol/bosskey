@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-8 col-lg-9">
                 <div class="content">
-                    <h1>Diploma In Business Administration(DBA) + Executive Master Program In Business Administration – 11 Months</h1>
+                    <h1>Diploma In Business Administration (DBA) + Executive Master Program In Business Administration – 11 Months</h1>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
@@ -23,7 +23,7 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career.</p> -->

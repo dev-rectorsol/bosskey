@@ -24,15 +24,15 @@
                     <div class="col-md-9  left-block">
                         <h2>COURSE OVERVIEW</h2>
                         <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-<p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
-<p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
+<p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
+<p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course.</p>
 <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-<p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Master Program in Supply Chain Management achieve a rewarding career by BIMT India</p>
+<p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Master Program in Supply Chain Management achieve a rewarding career by BIMT India.</p>
 
                         <div class="cert-head">
                             <h3>About Course</h3>
                         </div>
-                        <p>The Online Master program in Supply Chain Management from BIMT institute  of Business Management covers Statistical Quality Control, Distribution and Logistics Management, Supply Chain Management, Business Logistics, Human Resource Management, Marketing Management, Organizational Behaviour and general principles of management. This Master program in supply chain management gives professionals to gain holistic view of the business and gain analytical knowledge and soft skills which is essential for the supply chain managers to make decisions to mitigate the risk and to collaborate across functional areas. </p>
+                        <p>The Online Master program in Supply Chain Management from BIMT institute of Business Management covers Statistical Quality Control, Distribution and Logistics Management, Supply Chain Management, Business Logistics, Human Resource Management, Marketing Management, Organizational Behaviour and general principles of management. This Master program in supply chain management gives professionals to gain a holistic view of the business and gain analytical knowledge and soft skills which is essential for the supply chain managers to make decisions to mitigate the risk and to collaborate across functional areas. </p>
                     </div>
                     <div class="col-md-3 ">
                         <?php include('layout/courselist.php'); ?>
@@ -192,12 +192,12 @@
                                         <div class="col-sm-12">
                                             <ul class="content">
                                                 <li>
-                                                    <h4>By completing Distance Master Program in Supply Chain Management from BIMT Institute of Business Management, the students/professionals of BIMT India will:</h4>
+                                                    <h4>By completing the Distance Master Program in Supply Chain Management from BIMT Institute of Business Management, the students/professionals of BIMT India will:</h4>
                                                     <ul>
                                                         <li>Gain in-depth knowledge of managing and mitigating the risks (expected / unexpected) associated arising in the organization apart from handling the logistics and other things.</li>
                                                         <li>Acquire knowledge and confidence to interact with their organization’s finance, marketing, and information technology departments, in addition to outside suppliers or contractors.</li>
                                                         <li>Gain knowledge to collaborate across functional areas by BIMT India.</li>
-                                                        <li>Gain in-depth analytical knowledge and soft skills which are essential for the supply chain managers to a make decisions to mitigate the risk and to collaborate across functional areas.</li>
+                                                        <li>Gain in-depth analytical knowledge and soft skills which are essential for the supply chain managers to make decisions to mitigate the risk and to collaborate across functional areas.</li>
                                                         
                                                     </ul>
                                                 </li>
@@ -214,10 +214,10 @@
                                             
                                                  
                                             <li>Degree/Diploma graduates with minimum 1 year of work experience in relevant field.</li>
-                                            <li>Those who want to grow up in leadership positions in Supply Chain department</li>
-                                            <li>Those who want to move from junior or mid-level in supply chain department to management roles</li>
-                                            <li>Those who aspire to be an Entrepreneur</li>
-                                            <li>Those who are in the line of starting a good career start-up</li>
+                                            <li>Those who want to grow up in leadership positions in Supply Chain department.</li>
+                                            <li>Those who want to move from junior or mid-level in supply chain department to management roles.</li>
+                                            <li>Those who aspire to be an Entrepreneur.</li>
+                                            <li>Those who are in the line of starting a good career start-up.</li>
                                          
                                                  
 
@@ -235,11 +235,11 @@
                                                 <li>
                                                     <h4>On completion Master Program in Supply Chain management from BIMT Institute, the students achieve a gratifying career such as:</h4>
                                                     <ul>
-                                                    <li>Promotion & Salary growth for fresher’s / Supervisor to Manager Roles</li>
-                                                    <li>Elevation from supply chain Manager to directors, vice president and senior executive level</li>
-                                                    <li>Rapidly move into global leadership roles & Career Path</li>
+                                                    <li>Promotion & Salary growth for fresher’s / Supervisor to Manager Roles.</li>
+                                                    <li>Elevation from supply chain Manager to directors, vice president, and senior executive level.</li>
+                                                    <li>Rapidly move into global leadership roles & Career Path.</li>
                                                     <li>Smoothly change over from supervisor role to managerial & leadership role with improved expertise & career outlook.</li>
-                                                    <li>Build Entrepreneurial mind-set and perform better in a start-up environment</li>
+                                                    <li>Build Entrepreneurial mind-set and perform better in a start-up environment.</li>
                                                     </ul>
                                                 </li>
                                             </ul>

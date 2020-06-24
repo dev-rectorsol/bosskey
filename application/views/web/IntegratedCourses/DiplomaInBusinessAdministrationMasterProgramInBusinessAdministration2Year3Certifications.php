@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 2 year</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career.</p> -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This integrated Online Program with additional certificates is designed as an advanced approach to management education. It focuses on theory as well as practice, the opportunity to implement learning immediately and a similar student profile. Throughout your studies in Distance, you will develop your analytical, conceptual and critical thinking skills & Salary Hike to the highest level. You will also gain a strategic focus, Career Growth that will enable you to contribute to your own professional practice and the wider subject area by BIMT India.</p>
+                    <p>This integrated Online Program with additional certificates is designed as an advanced approach to management education. It focuses on theory as well as practice, the opportunity to implement learning immediately and a similar student profile. Throughout your studies in Distance, you will develop your analytical, conceptual and critical thinking skills & Salary Hike to the highest level. You will also gain a strategic focus, Career Growth that will enable you to contribute to your professional practice and the wider subject area by BIMT India.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -198,7 +198,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Demand Draft (DD) or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable.</li>
                 
             </ul>
             

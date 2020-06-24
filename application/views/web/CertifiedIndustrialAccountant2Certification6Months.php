@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,18 +23,18 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Certified Industrial Accountant + 2 Certification achieve a rewarding career</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Certified Industrial Accountant + 2 Certification achieve a rewarding career.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This course offers below 3 certifications along with Executive Master Program in Business Administration.</p>
+                    <p>This course offers below 3 certifications along with the Executive Master Program in Business Administration.</p>
                     <p>* Certified Industrial Accountant</p>
                     <p>* GST Professional</p>
                     <p>* Digital Marketing</p>
-                    <p>Certified Industrial Accountant course offered by BIMT Institute of Business Management with 2 Add On Certification have been designed after research to understand the pressing needs of the industry. The courses prepare accountants who are totally relevant for any industry. In today’s corporate world accountants play a significant role in decision making and are an integral part of strategic thinking of the company. This course is designed to give hands-on-expertise in Accounting and Taxation. After successful completion of program candidates will be ready to apply for multiple roles in the field of Accounting and Taxation.</p>
+                    <p>Certified Industrial Accountant course offered by BIMT Institute of Business Management with 2 Add On Certification has been designed after research to understand the pressing needs of the industry. The courses prepare accountants who are relevant to any industry. In today’s corporate world accountants play a significant role in decision making and are an integral part of the strategic thinking of the company. This course is designed to give hands-on-expertise in Accounting and Taxation. After successful completion of program candidates will be ready to apply for multiple roles in the field of Accounting and Taxation.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php include('layout/courselist.php'); ?>
@@ -162,11 +162,11 @@ Start Banner -->
             <li>
                 <!-- <h4>By completing Industrial Accountant from BIMT Institute of Business Management, the students/professionals of BIMT India will:</h4> -->
                 <ul>
-                    <li>They can make their career as chartered accountant; they should work in many disciplines such as financial reporting, taxation, corporate finance etc.</li>
-                    <li>After passing it, applicants can also start their own accounting or auditing firm</li>
+                    <li>They can make their career as a chartered accountant; they should work in many disciplines such as financial reporting, taxation, corporate finance, etc.</li>
+                    <li>After passing it, applicants can also start their accounting or auditing firm.</li>
                     <li>This increased importance not only ensures a bright career today; tomorrow appears to be even brighter for those who want to pursue accounting as a career.</li>
-                    <li>Take challenging roles in Accounting, Taxation, Auditing and Compliance</li>
-                    <li>Work independently on return filing, taxation, statutory compliance</li>
+                    <li>Take challenging roles in Accounting, Taxation, Auditing, and Compliance.</li>
+                    <li>Work independently on return filing, taxation, statutory compliance.</li>
                 </ul>
             </li>
         </ul>
@@ -178,10 +178,10 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>The course is suitable for those candidates who want to go for teaching fields at higher degree level college</li>
-            <li>Other essentials skills are problem solving and analytical ability, knowledge and awareness of business organisations and gaining an insight into the contemporary theories</li>
-            <li>Fresh Graduates/ Diploma in any discipline or equivalent</li>
-            <li>Working Professionals to enhance their Resume</li>    
+            <li>The course is suitable for those candidates who want to go for teaching fields at higher degree level colleges.</li>
+            <li>Other essentials skills are problem-solving and analytical ability, knowledge and awareness of business organizations and gaining an insight into the contemporary theories.</li>
+            <li>Fresh Graduates/ Diploma in any discipline or equivalent.</li>
+            <li>Working Professionals to enhance their Resume.</li>    
         </ul>
     </div>
     
@@ -193,10 +193,10 @@ Start Banner -->
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>On completion Certified Industrial Accountant + 3 certification from BIMT institute of Business Management, the students achieve a satisfying career such as:</h4>
+                <h4>On completion Certified Industrial Accountant + 3 certification from BIMT Institute of Business Management, the students achieve a satisfying career such as:</h4>
                 <ul>
                     <li>Promotion, Job & Salary growth for Undergraduates, Graduates, M.com and MBAs and Working Professional.</li>
-                    <li>Offer fundamental knowledge that can be applied to all kinds of situations while also supporting personal and leadership development</li>
+                    <li>Offer fundamental knowledge that can be applied to all kinds of situations while also supporting personal and leadership development.</li>
                     <li>Helps in making significant career transitions, find a new job or garner a promotion, Salary growth or launch a new business.</li>
                 </ul>
             </li>

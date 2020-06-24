@@ -7,7 +7,7 @@ Enquire now
 
 <div class="enquire-now custom-equery" id="enquery">
 <div class="close-btn" id="closeenquery">X</div>
-    <form class="forms-sample" action="<?php echo base_url('home/add_enquire');?>" method="post" enctype="multipart/form-data">
+<form class="forms-sample" action="<?php echo base_url('home/add_enquire');?>" method="post" enctype="multipart/form-data">
                             <div class="inner">
                                 <h3>Enquire now </h3>
                                 <div class="row1">
@@ -88,7 +88,7 @@ Enquire now
                             <div class="fl-right">
                                 <h1 class="animated fadeInRight">Explore the World of <span class="animated fadeInRight">Our Graduates</span> </h1>
                                 <!-- <p class="animated fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
-                                <a href="" class="btn animated fadeInRight">Know More <span class="icon-more-icon"></span></a> </div>
+                                <a href="#" class="btn animated fadeInRight">Know More <span class="icon-more-icon"></span></a> </div>
                         </div>
                     </div>
                 </div>
@@ -96,16 +96,15 @@ Enquire now
                     <div class="container">
                         <div class="content">
                             <h1 class="animated fadeInUp">MBA Marketing</h1>
-                            <p class="animated fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <a href="about.html" class="btn animated fadeInUp">Know More <span class="icon-more-icon"></span></a> <a href="gallery.html" class="btn white animated fadeInUp hidden-xs">Take a Tour <span class="icon-more-icon"></span></a> </div>
+                            <a href="#" class="btn animated fadeInUp">Know More <span class="icon-more-icon"></span></a>  </div>
                     </div>
                 </div>
                 <div class="slide3">
                     <div class="container">
                         <div class="content animated fadeInLeft">
                             <h1 class="animated fadeInLeft">Online MBA</h1>
-                            <p class="animated fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <a href="about.html" class="btn animated fadeInLeft">Know More <span class="icon-more-icon"></span></a> </div>
+                            
+                            <a href="#" class="btn animated fadeInLeft">Know More <span class="icon-more-icon"></span></a> </div>
                     </div>
                 </div>
             </div>
@@ -151,7 +150,7 @@ Enquire now
                     </div>
                     <div class="col-sm-5 col-sm-pull-7">
                         <div class="video-block">
-                            <div id="thumbnail_container"> <img src="<?php echo base_url()?>assets/images/about-video.jpg" id="thumbnail" class="img-responsive" alt=""> </div>
+                            <div id="thumbnail_container"> <img src="<?php echo base_url()?>assets/images/programmes.jpg" id="thumbnail" class="img-responsive" alt=""> </div>
                             <a href="#" class="start-video video"><img src="images/play-btn.png" alt=""></a>
                         </div>
                     </div>
@@ -169,45 +168,45 @@ Enquire now
                     <li>
                         <div class="inner">
                             <figure><img src="<?php echo base_url()?>assets/images/course-img1.jpg" alt=""></figure>
-                            <h3>Online <span>MBA General</span></h3>
+                            <h3>Master Program in<span>Business Administration</span></h3>
                             <div class="bottom-txt clearfix">
                                 <div class="duration">
-                                    <h4>2 Year</h4>
+                                    <h4>11 Months</h4>
                                     <span> Courses</span> </div>
-                                <a href="#"><span class="icon-more-icon"></span></a> </div>
+                                <a href="<?php echo base_url('businessadministration');?>"><span class="icon-more-icon"></span></a> </div>
                         </div>
                     </li>
                     <li>
                         <div class="inner">
                             <figure><img src="<?php echo base_url()?>assets/images/course-img2.jpg" alt=""></figure>
-                            <h3>Online MBA <span>Operations</span></h3>
+                            <h3>Master Program In <span>International Business</span></h3>
                             <div class="bottom-txt clearfix">
                                 <div class="duration">
-                                    <h4>1 Year</h4>
+                                    <h4>11 Months</h4>
                                     <span> Courses</span> </div>
-                                <a href="#"><span class="icon-more-icon"></span></a> </div>
+                                <a href="<?php echo base_url('masterprograminternationalbusiness');?>"><span class="icon-more-icon"></span></a> </div>
                         </div>
                     </li>
                     <li>
                         <div class="inner">
                             <figure><img src="<?php echo base_url()?>assets/images/course-img3.jpg" alt=""></figure>
-                            <h3>Online MBA <span>Marketing</span></h3>
+                            <h3>Certificate in <span>financial Analysis</span></h3>
                             <div class="bottom-txt clearfix">
                                 <div class="duration">
-                                    <h4>3 Year</h4>
+                                    <h4>6 Months</h4>
                                     <span> Courses</span> </div>
-                                <a href="#"><span class="icon-more-icon"></span></a> </div>
+                                <a href="<?php echo base_url('CertificateInfinancialAnalysis6Months');?>"><span class="icon-more-icon"></span></a> </div>
                         </div>
                     </li>
                     <li>
                         <div class="inner">
                             <figure><img src="<?php echo base_url()?>assets/images/course-img4.jpg" alt=""></figure>
-                            <h3>Online MBA <span>Human</span><span>Resource</span></h3>
+                            <h3>Business <span> Analytics</span><span>Certification</span></h3>
                             <div class="bottom-txt clearfix">
                                 <div class="duration">
-                                    <h4>2 Year</h4>
+                                    <h4>6 Months</h4>
                                     <span> Courses</span> </div>
-                                <a href="#"><span class="icon-more-icon"></span></a> </div>
+                                <a href="<?php echo base_url('BusinessAnalyticsCertification6Months');?>"><span class="icon-more-icon"></span></a> </div>
                         </div>
                     </li>
                 </ul>
@@ -221,31 +220,29 @@ Enquire now
                 <h2>Faculty of BIMT  Institute</h2>
                 <ul class="row browse-teachers-list clearfix">
                     <li class="col-xs-6 col-sm-3">
-                        <figure> <img src="<?php echo base_url()?>assets/images/teacher1.jpg" width="123" height="124" alt=""> </figure>
-                        <h3>Bruno Acselrad</h3>
+                        <figure> <img src="<?php echo base_url()?>assets/images/teacher/Bryan_Tyler.jpg" width="123" height="124" alt=""> </figure>
+                        <h3>Bryan Tyler</h3>
                         <span class="designation"><strong>Qualification:</strong> Ph.D (H.R), MBA (H.R)</span>
-                        <a class="equal-hight btn animated fadeInLeft" href="#">View Profile</a>
+                       
 
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <figure> <img src="<?php echo base_url()?>assets/images/teacher2.jpg" width="123" height="124" alt=""> </figure>
-                        <h3>Bruno Acselrad</h3>
-                        <span class="designation"><strong>Qualification:</strong> Ph.D (H.R), MBA (H.R)</span>
-                        <a class="equal-hight btn animated fadeInLeft" href="#">View Profile</a>
-
+                        <figure> <img src="<?php echo base_url()?>assets/images/teacher/Mike_dikson.jpg" width="123" height="124" alt=""> </figure>
+                        <h3>Mike Dikson</h3>
+                        <span class="designation"><strong>Qualification:</strong> MBA(Digital Marketing)</span>
+                        
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <figure> <img src="<?php echo base_url()?>assets/images/teacher3.jpg" width="123" height="124" alt=""> </figure>
-                        <h3>Bruno Acselrad</h3>
-                        <span class="designation"><strong>Qualification:</strong> Ph.D (H.R), MBA (H.R)</span>
-                        <a class="equal-hight btn animated fadeInLeft" href="#">View Profile</a>
-
+                        <figure> <img src="<?php echo base_url()?>assets/images/teacher/Mukesh_Saxena.png" width="123" height="124" alt=""> </figure>
+                        <h3>Mukesh Saxena</h3>
+                        <span class="designation"><strong>Qualification:</strong> Ph.D (IT)</span>
+                        
                     </li>
                     <li class="col-xs-6 col-sm-3">
-                        <figure> <img src="<?php echo base_url()?>assets/images/teacher4.jpg" width="123" height="124" alt=""> </figure>
-                        <h3>Bruno Acselrad</h3>
-                        <span class="designation"><strong>Qualification:</strong> Ph.D (H.R), MBA (H.R)</span>
-                        <a class="equal-hight btn animated fadeInLeft" href="#">View Profile</a>
+                        <figure> <img src="<?php echo base_url()?>assets/images/teacher/Xiang_Hou.jpeg" width="123" height="124" alt=""> </figure>
+                        <h3>Xiang Hou</h3>
+                        <span class="designation"><strong>Qualification:</strong> Ph.D,MBA (Finance)</span>
+                        
 
                     </li>
                 </ul>
@@ -263,16 +260,16 @@ Enquire now
                     <h2> Our Testimonials</h2>
                     <ul class="testimonial-slide">
                         <li>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                            <span>Thomas, <span>London</span></span> </li>
+                            <p>Techies need to up-skill 15-20 times to achieve career growth...<a href="#"></a></p>
+                            <span>Bryan Tyler, <span>London</span></span> </li>
                         <li>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                            <span>Thomas, <span>London</span></span> </li>
+                            <p>How learning Bitcoin’s backbone tech can boost your career...<a href="#"></a></p>
+                            <span>Mike Dikson, <span>Chine</span></span> </li>
                         <li>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
-                            <span>Thomas, <span>London</span></span> </li>
+                            <p>Top 10 courses you should take in 2019 for a great career aheady...<a href="#">Read more</a></p>
+                            <span>Xiang Hou, <span>Japan</span></span> </li>
                     </ul>
-                    <div id="bx-pager"> <a data-slide-index="0" href="#"><img src="<?php echo base_url()?>assets/images/testimonial-thumb1.jpg" class="img-circle" alt=""/></a> <a data-slide-index="1" href="#"><img src="images/testimonial-thumb2.jpg" class="img-circle" alt="" /></a> <a data-slide-index="2" href="#"><img src="images/testimonial-thumb3.jpg" class="img-circle" alt="" /></a> </div>
+                    <!--<div id="bx-pager"> <a data-slide-index="0" href="#"><img src="<?php echo base_url()?>assets/images/images.png" class="img-circle" alt=""/></a> <a data-slide-index="1" href="#"><img src="images/images.png" class="img-circle" alt="" /></a> <a data-slide-index="2" href="#"><img src="images/images.png" class="img-circle" alt="" /></a> </div>-->
                 </div>
             </div>
         </section>

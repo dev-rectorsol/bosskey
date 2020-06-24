@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,17 +23,17 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Program in Business Analytics achieve a rewarding career by BIMT Institute</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of the Executive Program in Business Analytics achieve a rewarding career by BIMT Institute.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
                     <ul>
-                        <li>Executive Program in Business Analytics is about quantitative analysis and predictive modeling towards data-driven competitive strategies. Exemplars of analytics are using tools to identify their most profitable customers; offer the right price; accelerate product innovation; optimize supply chains; identifying the true drivers of financial performance etc.</li><br>
-                        <li>Competence in analytics has become a critical skill for managers of the new age business organisations.</li><br>
-                        <li>This Online executive program in Business Analytics would have modules such as Data Mining, Business Intelligence, Statistical Decision Modeling, Spreadsheet Modelling, Financial Analytics, Marketing Analytics, and Operations Analytics. The overall value gained at the end of the program is expected to build a solid foundation of business analytics.</li>
+                        <li>Executive Program in Business Analytics is about quantitative analysis and predictive modeling towards data-driven competitive strategies. Exemplars of analytics are using tools to identify their most profitable customers; offer the right price; accelerate product innovation; optimize supply chains; identifying the true drivers of financial performance, etc.</li><br>
+                        <li>Competence in analytics has become a critical skill for managers of the new age business organizations.</li><br>
+                        <li>This Online executive program in Business Analytics would have modules such as Data Mining, Business Intelligence, Statistical Decision Modeling, Spreadsheet Modelling, Financial Analytics, Marketing Analytics, and Operations Analytics. The overall value gained at the end of the program is expected to build a solid foundation for business analytics.</li>
                     </ul>
                 </div>
                 <div class="col-md-3 ">
@@ -154,10 +154,10 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Graduate/Diploma/Working Professional</li>
-            <li>This course is designed for the professionals, who wish to make a career in business analytics and have some Knowledge of IT. There are no pre-requisites for this course.</li>
-            <li>Working Professionals to enhance their Resume</li>
-            <li>Directors/Vice Presidents/Senior Executives</li>
+            <li>Graduate/Diploma/Working Professional.</li>
+            <li>This course is designed for professionals, who wish to make a career in business analytics and have some knowledge of IT. There are no pre-requisites for this course.</li>
+            <li>Working Professionals to enhance their Resume.</li>
+            <li>Directors/Vice Presidents/Senior Executives.</li>
             <li>To gain an understanding of how managers use business analytics to formulate and solve business problems and to support managerial decision making.</li>
             <li>To gain an understanding of how managers use business analytics to formulate and solve business problems and to support managerial decision making.</li>
         </ul>
@@ -171,14 +171,14 @@ Start Banner -->
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>On completion of Certificate in financial Analysis from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
+                <h4>On completion of Certificate in Financial Analysis from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
                 <ul>
                     <li>Expose participants to state of the art tools and techniques of analytics.</li>
-                    <li>Learn how to apply analytics across industries such as marketing, finance and operations</li>
+                    <li>Learn how to apply analytics across industries such as marketing, finance, and operations.</li>
                     <li>A solid foundation in topics needed for building capabilities to take on the new form of competition.</li>
                     <li>Getting these certification courses can increase your chances of getting hired in some of the best companies.</li>
                     <li>Some of the companies known for using cutting edge Analytics (in India) are:</li>
-                    <li> Technology leaders: Google, Facebook, Linkedin</li>
+                    <li> Technology leaders: Google, Facebook, Linkedin.</li>
                     <li>Banking, Financial Services and Insurance (BFSI):</li>
                 </ul>
             </li>

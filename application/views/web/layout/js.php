@@ -21,15 +21,10 @@
 <script src="<?php echo base_url() ?>assets/vender/owl-carousel/js/owl.carousel.min.js"></script>
 <!-- Modernizr JS -->
 <script src="<?php echo base_url() ?>assets/js/modernizr.custom.js"></script>
-<!-- tel JS -->
-<!-- <script src="<?php echo base_url() ?>assets/vender/tel/js/intlTelInput.min.js"></script>  -->
-<!-- countries js -->
-<!-- <script src="<?php echo base_url() ?>assets/vender/countries/countries.js"></script> -->
-<!-- <script src="http://geodata.solutions/includes/countrystatecity.js"></script> -->
 <!-- Custom JS -->
 <script src="<?php echo base_url() ?>assets/js/custom.js"></script>
 <script type="text/javascript">
-$("#phonecode").on('change', function(){
+$("#country").on('change', function(){
       var id = $(this).val();
 
       var csrf_name = $("#get_csrf_hash").attr('name');
@@ -40,11 +35,11 @@ $("#phonecode").on('change', function(){
         data: {'id' : id, '<?php echo $this->security->get_csrf_token_name(); ?>' : '<?php  echo $this->security->get_csrf_hash(); ?>'},
         datatype: 'json',
         success: function(data){
-           $("#phone_country").html(JSON.parse(data));
+           $("#phonecode").html(JSON.parse(data));
         }
       });
     });
-    $("#phonecode").on('change', function(){
+    $("#country").on('change', function(){
           var country_id = $(this).val();
           console.log(country_id);
           var csrf_name = $("#get_csrf_hash").attr('name');
@@ -91,35 +86,10 @@ $("#phonecode").on('change', function(){
         });
 
 </script>
-<!-- <script>
-    var input = document.querySelector("#phone");
-    window.intlTelInput(input, {
-      // allowDropdown: false,
-      // autoHideDialCode: false,
-      // autoPlaceholder: "off",
-      // dropdownContainer: document.body,
-      // excludeCountries: ["us"],
-      // formatOnDisplay: false,
-      // geoIpLookup: function(callback) {
-      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-      //     var countryCode = (resp && resp.country) ? resp.country : "";
-      //     callback(countryCode);
-      //   });
-      // },
-      // hiddenInput: "full_number",
-      // initialCountry: "auto",
-      // localizedCountries: { 'de': 'Deutschland' },
-      // nationalMode: false,
-      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-      // placeholderNumberType: "MOBILE",
-      // preferredCountries: ['cn', 'jp'],
-      // separateDialCode: true,
-      utilsScript: "<?php echo base_url() ?>assets/vender/tel/js/utils.js",
-    });
-  </script> -->
   <script language="javascript">
 	populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
 </script>
+
 <script>
   $("#quickform").on("click", function() {
 if ($("#enquery").is(":hidden")) {
@@ -127,6 +97,12 @@ if ($("#enquery").is(":hidden")) {
 } else {
     $("#enquery").slideToggle("slow");
 }
+});
+$(document).ready(function(){
+  $("#closeenquery").click(function(){
+    $("#enquery").hide();
+  });
+  
 });
 </script>
 </body>

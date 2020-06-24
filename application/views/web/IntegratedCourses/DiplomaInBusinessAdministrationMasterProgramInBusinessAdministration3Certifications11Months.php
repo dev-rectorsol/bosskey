@@ -30,7 +30,7 @@
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This integrated online program with additional certificates is designed to enable students to acquire the skills and capabilities that will enable them to reach responsible Global positions in management. The program lays the foundation for conceptual and analytical reasoning, and gives the students an insight into the dynamics of the business environment by BIMT India. The online program design is inspired by management practice rather than ivory tower academics. The course material and design is oriented towards current and emerging issues in management & for the job growth & Salary Hike.</p>
+                    <p>This integrated online program with additional certificates is designed to enable students to acquire the skills and capabilities that will enable them to reach responsible global positions in management. The program lays the foundation for conceptual and analytical reasoning and gives the students an insight into the dynamics of the business environment by BIMT India. The online program design is inspired by management practice rather than ivory tower academics. The course material and design are oriented towards current and emerging issues in management & for the job growth & Salary Hike.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>

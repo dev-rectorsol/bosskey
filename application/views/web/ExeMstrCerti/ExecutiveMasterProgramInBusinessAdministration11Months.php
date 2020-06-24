@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>The executives working in a managerial cadre often struggle to get hold of the key leadership qualities they require to grow. The professionals in non-managerial or non-leadership roles often realize their true leadership potential after spending few years on the job. There are certain positions in organizations offer no growth after a certain point of time. The employees themselves feel a sort of boredom in certain roles; the reasons could be (1) the roles not giving new challenges anyone and the work become monotonous or (2) the professionals are unable to handle the challenges the global business model brings in. In such scenarios, Executive Master Program in Business Administration from BIMT Institute of Business Management extends a complete support. The advanced level of subjects covered in this course help in enhancing the leadership potential, achieve salary, corporate growth, build an ability to change the career path and provides tremendous exposure.</p>
+                    <p>The executives working in a managerial cadre often struggle to get hold of the key leadership qualities they require to grow. The professionals in non-managerial or non-leadership roles often realize their true leadership potential after spending a few years on the job. There are certain positions in organizations offer no growth after a certain point in time. The employees themselves feel a sort of boredom in certain roles; the reasons could be (1) the roles not giving new challenges anyone and the work become monotonous or (2) the professionals are unable to handle the challenges the global business model brings in. In such scenarios, the Executive Master Program in Business Administration from BIMT Institute of Business Management extends complete support. The advanced level of subjects covered in this course help in enhancing the leadership potential, achieve salary, corporate growth, build an ability to change the career path and provides tremendous exposure.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist; //include base_url('web\layout\courselist.php'); ?>
@@ -175,7 +175,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable.</li>
                 
             </ul>
             
@@ -190,12 +190,12 @@
             <li>
                 <h4>By completing Online Executive Master Program in Business Administration from BIMT Institute of Business Management,the students/professionals/executives will:</h4>
                 <ul>
-                    <li>Attain advanced, in-depth, focused and strong knowledge in principles and practices involved in all functions of business administration</li>
-                    <li>Rapidly trailup to the leadership roles in this globally competitive world</li>
-                    <li>Improve efficiency  which worth it to handle challenging and ever-changing business environment</li>
-                    <li>Develop acapability to apply innovative approaches to address business problems</li>
-                    <li>Acquire skills in HR Management, Marketing Management, Managerial Economics, Organizational Structure & Behaviour, Financial Management and Business Communication by BIMT India</li>
-                    <li>An opportunity to choose two core subjects in which the students want to gain cutting-edge expertise</li>
+                    <li>Attain advanced, in-depth, focused and strong knowledge in principles and practices involved in all functions of business administration.</li>
+                    <li>Rapidly trailup to the leadership roles in this globally competitive world.</li>
+                    <li>Improve efficiency  which worth it to handle challenging and ever-changing business environment.</li>
+                    <li>Develop acapability to apply innovative approaches to address business problems.</li>
+                    <li>Acquire skills in HR Management, Marketing Management, Managerial Economics, Organizational Structure & Behaviour, Financial Management and Business Communication by BIMT India.</li>
+                    <li>An opportunity to choose two core subjects in which the students want to gain cutting-edge expertise.</li>
                 </ul>
             </li>
         </ul>
@@ -207,15 +207,15 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma holders in any discipline (or equivalent) with minimum one year of work experience</li>
-            <li>Project Managers/Team Leaders</li>
-            <li>Sales/Marketing/Lead Generation/Business Administration Professionals</li>
-            <li>Directors/Vice Presidents/Senior Executives</li>
-            <li>Aspiring CEOs/CFOs/CTOs</li>
-            <li>Those who want to grow up in leadership positions</li>
-            <li>Those who want to move from technical role to management roles</li>
-            <li>Those who aspire to be an Entrepreneur</li>
-            <li>Those who are in the line of starting a start-up</li>
+            <li>Degree/Diploma holders in any discipline (or equivalent) with minimum one year of work experience.</li>
+            <li>Project Managers/Team Leaders.</li>
+            <li>Sales/Marketing/Lead Generation/Business Administration Professionals.</li>
+            <li>Directors/Vice Presidents/Senior Executives.</li>
+            <li>Aspiring CEOs/CFOs/CTOs.</li>
+            <li>Those who want to grow up in leadership positions.</li>
+            <li>Those who want to move from technical role to management roles.</li>
+            <li>Those who aspire to be an Entrepreneur.</li>
+            <li>Those who are in the line of starting a start-up.</li>
         </ul>
     </div>
     
@@ -229,11 +229,11 @@
             <li>
                 <h4>On completion of Executive Master Program in Business Administration from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
                 <ul>
-                    <li>Promotion for freshers/team members to a mid-level leadership and managerial roles</li>
-                    <li>Elevation from mid-level roles to a senior level managerial, program manager, Group heads, Directors, Vice President and Senior Executive Levels</li>
-                    <li>Rapidly move into leadership roles</li>
-                    <li>Smoothly change over from technical role to managerial& leadership role with improvedexpertise</li>
-                    <li>Build Entrepreneurial mind-set and perform better in a start-up environment.</li>
+                    <li>Promotion for freshers/team members to mid-level leadership and managerial roles.</li>
+                    <li>Elevation from mid-level roles to a senior level managerial, program manager, Group heads, Directors, Vice President, and Senior Executive Levels.</li>
+                    <li>Rapidly move into leadership roles.</li>
+                    <li>Smoothly change over from technical role to managerial& leadership role with improved expertise.</li>
+                    <li>Build an Entrepreneurial mind-set and perform better in a start-up environment.</li>
                 </ul>
             </li>
         </ul>

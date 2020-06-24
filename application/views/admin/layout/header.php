@@ -20,5 +20,6 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="<?php echo base_url() ?>assets/assets/images/favicon.png" />
+    <link href='https://cdn.jsdelivr.net/npm/froala-editor@3.1.0/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css' />
   </head>
   <body>

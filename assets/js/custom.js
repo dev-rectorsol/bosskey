@@ -56,7 +56,7 @@
              *************************************/
             function dropdown() {
                 var $viewportWidth = $wn.width();
-                var $element = $('ul.nav li.dropdown');
+                var $element = $('ul.nav1 li.dropdown');
                 if ($viewportWidth > 767) {
                     $element.hover(function () {
                         $(this)

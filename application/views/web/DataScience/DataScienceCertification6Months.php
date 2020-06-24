@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,7 +23,7 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Data science Certification achieve a rewarding career by MSME.</p>
@@ -31,8 +31,8 @@ Start Banner -->
                         <h3>About Course</h3>
                     </div>
                     <p>Data science Certification is an interdisciplinary field that strives to extract knowledge or insights from data in various forms and employs techniques and theories drawn from many fields within the broad areas of mathematics, statistics, operations research, information Science, and computer science.</p>
-                    <p>The program will be hands-on with introduction to software such as XL-Miner, SAS Enterprise Miner, SPSS, R, @Risk, etc. The program is suited for working professionals and fresher who would like to have a hands-on feel on working with data and making sense ofit.</p>
-                    <p>The objective of Data Science Certification is to introduce participants to the tools and techniques used for handling, managing, analysing and interpreting data.</p>
+                    <p>The program will be hands-on with an introduction to software such as XL-Miner, SAS Enterprise Miner, SPSS, R, @Risk, etc. The program is suited for working professionals and fresher who would like to have a hands-on feel on working with data and making sense of it.</p>
+                    <p>The objective of Data Science Certification is to introduce participants to the tools and techniques used for handling, managing, analyzing and interpreting data.</p>
                 </div>
                 <div class="col-md-3 ">
                      <?php echo $courselist;?>
@@ -132,7 +132,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>     
+                <li>Exam Fees and GST 18% applicable. </li>     
             </ul>
         </div>
     </div>
@@ -161,7 +161,7 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Working professionals with minimum 3 years of experience& graduates who need to use quantitative techniques and data analytics tools to arrive at most effective decisions will find this program stimulating and challenging.</li>
+            <li>Working professionals with a minimum of 3 years of experience& graduates who need to use quantitative techniques and data analytics tools to arrive at most effective decisions will find this program stimulating and challenging.</li>
             <li>Professionals interested in learning the different tools and techniques of data science and successful implementation of data science in the organization will find this program useful for their professional excellence.</li>
             <li>Participants are expected to have working knowledge of basic mathematics and simplelogic.</li>   
         </ul>

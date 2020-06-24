@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,12 +23,12 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>–  6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND -</strong></p> -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>The Six Sigma Master Black Belt Online Professional by BIMT India is a teacher and a leader. As a leader, the MBB will have responsibility for overseeing projects with multiple Online Black Belt and Green Belt participation that will significantly change the way the organization does business. As a teacher, the MBB is responsible for the on-going development of existing Black Belts as well as the development of new ones. Six Sigma Master Black Belt Professional by BIMT India should be a Certified Six Sigma Black Belt who have led and completed at least 2 projects effecting an increase/recover of revenue or Reduction/avoidance of operation cost of at least INR Rs 1 million for the organization(s) In order to obtain the certification, each candidate should: 1. Submit C.V & Six Sigma Black Belt completed certificate 2. Submit a project affidavit and project document showing the result of his/her 2 projects. 3. Provide evidence of 20 hrs of Six Sigma training to other professionals. 4. Pass the assessment of Examination Board by attending a one-and-a-half hour interview (45-minutes presentation of the projects experience and 45-minutes of oral exam on the MBB competency skills – (if required).</p>
+                    <p>The Six Sigma Master Black Belt Online Professional by BIMT India is a teacher and a leader. As a leader, the MBB will have responsibility for overseeing projects with multiple Online Black Belt and Green Belt participation that will significantly change the way the organization does business. As a teacher, the MBB is responsible for the on-going development of existing Black Belts as well as the development of new ones. Six Sigma Master Black Belt Professional by BIMT India should be a Certified Six Sigma Black Belt who has led and completed at least 2 projects affecting an increase/recover of revenue or Reduction/avoidance of operation cost of at least INR 1 million for the organization(s) To obtain the certification, each candidate should: 1. Submit C.V & Six Sigma Black Belt completed certificate 2. Submit a project affidavit and project document showing the result of his/her 2 projects. 3. Provide evidence of 20 hrs of Six Sigma training to other professionals. 4. Pass the assessment of Examination Board by attending a one-and-a-half hour interview (45-minutes presentation of the projects experience and 45-minutes of oral exam on the MBB competency skills – (if required).</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -158,7 +158,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum via cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
             </ul>
         </div>
     </div>

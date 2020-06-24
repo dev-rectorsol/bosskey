@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,22 +23,22 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>–  4 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND -</strong></p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>Online Project management is a carefully planned and organized effort to accomplish a specific one time effort. Project management includes distance developing a project plan, which includes defining project goals and objectives, specifying tasks or how goals will be achieved, what resources are need, and associating budgets and timelines for completion.</p>
+                    <p>Online Project management is a carefully planned and organized effort to accomplish a specific one-time effort. Project management includes distance developing a project plan, which includes defining project goals and objectives, specifying tasks or how goals will be achieved, what resources are needed, and associating budgets and timelines for completion.</p>
                     <div class="cert-head">
                         <h3>Course Highlight</h3>
                     </div>
-                    <p><strong>24×7 Online Access – 24×7 Access to Course Material</strong></p>
-                    <p><strong>High Quality e-Learning Content</strong></p>
+                    <p><strong>24×7 Online Access – 24×7 Access to Course Material.</strong></p>
+                    <p><strong>High Quality e-Learning Content.</strong></p>
                     <p><strong>Android App</strong></p>
-                    <p><strong>Preparation of Google Adwords Certification</strong></p>
-                    <p><strong>Study Material-Provided Learning Material to student</strong></p>
-                    <p><strong>Online Exam/Test</strong></p>
-                    <p><strong>Certificate Awarded By BIMT Institute</strong></p>
+                    <p><strong>Preparation of Google Adwords Certification.</strong></p>
+                    <p><strong>Study Material-Provided Learning Material to student.</strong></p>
+                    <p><strong>Online Exam/Test.</strong></p>
+                    <p><strong>Certificate Awarded By BIMT Institute.</strong></p>
 
                 </div>
                 <div class="col-md-3 ">
@@ -160,7 +160,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum via cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
             </ul>
         </div>
     </div>

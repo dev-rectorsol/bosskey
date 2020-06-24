@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> Potential Career Growth:-&nbsp;</strong>On completion of online Certification Program in Human Resource Management achieve a rewarding career.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>A Certificate program in Human Resource Management will help professionals to gain in-depth knowledge in core concepts and provide practical solutions for challenges prevailing in the current business scenario.The role of HR professionals in modern world has undergone drastic change due to the evolution of technologies, globalization, etc. . This Certification Master program in Human Resource Management from BIMT Institute of Business Management will help the junior or mid-level professionals to demonstrate and fulfil the expectations of the organization. BIMT India curriculum is designed in such a way to help them to understand holistic approach towards Human Resource Management.</p>
+                    <p>A Certificate program in Human Resource Management will help professionals to gain in-depth knowledge of core concepts and provide practical solutions for challenges prevailing in the current business scenario. The role of HR professionals in the modern world has undergone a drastic change due to the evolution of technologies, globalization, etc... This Certification Master program in Human Resource Management from BIMT Institute of Business Management will help the junior or mid-level professionals to demonstrate and fulfill the expectations of the organization. BIMT India curriculum is designed in such a way to help them to understand the holistic approach towards Human Resource Management.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -86,7 +86,7 @@
                 
                 <div class="row">
                     <div class="col-sm-12 txt-block">
-                        <h4>Certificate Program in Human Resource Management from BIMT Institute of Business Management comprises of 4 core Subjects </h4>
+                        <h4>Certificate Program in Human Resource Management from BIMT Institute of Business Management comprises of 4 core Subjects. </h4>
                     </div>
                     <div class="col-sm-3">   
                         <ul class="content">
@@ -129,7 +129,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Demand Draft (DD) or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
                 
             </ul>
             
@@ -142,12 +142,12 @@
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>By Completing Certificate Program in Human resource management from BIMT India,  the students/professionals scope will enhance by:</h4>
+                <h4>By Completing the Certificate Program in Human resource management from BIMT India,  the students/professionals scope will enhance by:</h4>
                 <ul>
-                    <li>Gain in-depth knowledge of managing human resources with various skills</li>
-                    <li>Acquire knowledge to design recruitment strategy in compliance with the organizational standards and requirements</li>
-                    <li>Enhance efficiency to manage the challenging business environment and larger workforce with various skills</li>
-                    <li>Enhance efficiency to manage the challenging business environment and larger workforce with various skills</li>
+                    <li>Gain in-depth knowledge of managing human resources with various skills.</li>
+                    <li>Acquire knowledge to design a recruitment strategy in compliance with the organizational standards and requirements.</li>
+                    <li>Enhance efficiency to manage the challenging business environment and a larger workforce with various skills.</li>
+                    <li>Enhance efficiency to manage the challenging business environment and a larger workforce with various skills.</li>
                 </ul>
             </li>
         </ul>
@@ -159,13 +159,13 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma Graduates</li>
-            <li>HR Recruiter / HR associate</li>
-            <li>Those who want to grow up in leadership positions in Human resource department</li>
-            <li>Those who want to change over from technical role to HR role</li>
-            <li>Those who want to move from HR recruiter / HR associate to Leadership roles</li>
-            <li>Those who aspire to be an Entrepreneur to start HR Consulting company</li>
-            <li>Those who are in the line of starting a start-up</li>
+            <li>Degree/Diploma Graduates.</li>
+            <li>HR Recruiter / HR associate.</li>
+            <li>Those who want to grow up in leadership positions in the Human resource department.</li>
+            <li>Those who want to change over from a technical role to the HR role.</li>
+            <li>Those who want to move from HR recruiter / HR associate to Leadership roles.</li>
+            <li>Those who aspire to be an Entrepreneur to start HR Consulting company.</li>
+            <li>Those who are in the line of starting a start-up.</li>
         </ul>
     </div>
     
@@ -177,12 +177,12 @@
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>On completion Certificate Program in Human Resource Management from BIMT institute of Business Management, the students achieve a satisfying career such as:</h4>
+                <h4>On completion Certificate Program in Human Resource Management from BIMT Institute of Business Management, the students achieve a satisfying career such as:</h4>
                 <ul>
-                    <li>Promotion, Job & Salary growth for fresher’s / HR recruiter / HR Associate to a mid-level team leader, project leader and HR project manager roles</li>
-                    <li>Ranking Elevation from HR manager to directors, vice president and senior executive level</li>
-                    <li>Rapidly move into global level leadership roles</li>
-                    <li>Smoothly change over from technical role to managerial & leadership role with improved expertise</li>
+                    <li>Promotion, Job & Salary growth for fresher’s / HR recruiter / HR Associate to a mid-level team leader, project leader and HR project manager roles.</li>
+                    <li>Ranking Elevation from HR manager to directors, vice president, and senior executive level.</li>
+                    <li>Rapidly move into global level leadership roles.</li>
+                    <li>Smoothly change over from technical role to managerial & leadership role with an improved expertise.</li>
                 </ul>
             </li>
         </ul>

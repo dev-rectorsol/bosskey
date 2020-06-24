@@ -159,12 +159,12 @@
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>By completing Post Graduate Diploma in Management from BIMT Institute of Business Management, certification approved by “International Professional Management Association (IPMA), UK, the executives will:</h4>
+                <h4>By completing the Post Graduate Diploma in Management from BIMT Institute of Business Management, certification approved by “International Professional Management Association (IPMA), UK, the executives will:</h4>
                 <ul>
-                    <li>Enhance managerial performance and effectiveness in business, industry and people administration</li>
-                    <li>Learn the intricacies involved in managing current talents, human resources and skills</li>
-                    <li>Improve the ability to identify and evaluate the key management competencies and achieve agreed deliverables</li>
-                    <li>Build a characteristic as a problem solver and a decision maker</li>
+                    <li>Enhance managerial performance and effectiveness in business, industry and people administration.</li>
+                    <li>Learn the intricacies involved in managing current talents, human resources, and skills.</li>
+                    <li>Improve the ability to identify and evaluate the key management competencies and achieve agreed deliverables.</li>
+                    <li>Build a characteristic as a problem solver and a decision maker.</li>
                 </ul>
             </li>
         </ul>
@@ -176,10 +176,10 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content"> 
-            <li>Senior Executives with a responsibility to increase organizational effectiveness</li>
-            <li>Executive managers who are in the look-out for equipping with wide range of skills that can be directly transferred to the organization</li>
-            <li>Those in managerial cadre looking towards improving skills that trigger creativity and innovative ideas in workplace</li>
-            <li>hose in managerial positions working in global work environment</li>
+            <li>Senior Executives with a responsibility to increase organizational effectiveness.</li>
+            <li>Executive managers who are in the look-out for equipping with a wide range of skills that can be directly transferred to the organization.</li>
+            <li>Those in managerial cadre looking towards improving skills that trigger creativity and innovative ideas in the workplace.</li>
+            <li>Those in managerial positions working in the global work environment.</li>
         </ul>
     </div>
     
@@ -193,10 +193,10 @@
             <li>
                 <h4>On completion of Post Graduate Diploma in Management from BIMT Institute of Business Management, certification approved by “International Professional Management Association (IPMA), UK, the executive managers are enabled to achieve a rewarding career such as:</h4>
                 <ul>
-                    <li>Become a leader with an ability to influence, inspire others</li>
-                    <li>Become a competent and effective manager and grow in a career ladder</li>
-                    <li>Build accountability and generate a culture of accountability in teams that they manage and hence achieve a greater professional growth</li>
-                    <li>Acquire international leadership ranking roles easily and attain financial and professional & Job growth</li>
+                    <li>Become a leader with an ability to influence, inspire others.</li>
+                    <li>Become a competent and effective manager and grow in a career ladder.</li>
+                    <li>Build accountability and generate a culture of accountability in teams that they manage and hence achieve a greater professional growth.</li>
+                    <li>Acquire international leadership ranking roles easily and attain financial and professional & Job growth.</li>
                 </ul>
             </li>
         </ul>

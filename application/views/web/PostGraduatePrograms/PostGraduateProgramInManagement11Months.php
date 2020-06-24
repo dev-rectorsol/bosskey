@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This Program is designed to provide a holistic education that goes beyond classroom learning Online PGPM is rigorous, challenging and encourages learning beyond classroom instruction by BIMT India. The Online course helps transform high potential professionals in to competent business managers and decision makers in a short span of 1 year. The program is designed to make the students business-ready and capable of responding to complex business requirements that arise in a changing global business environment. Throughout the course of study, emphasis is placed on skill development, team-work, inclusivity principles and value-based management creating “Business Ready Managers”.</p>
+                    <p>This Program is designed to provide a holistic education that goes beyond classroom learning Online PGPM is rigorous, challenging and encourages learning beyond classroom instruction by BIMT India. The Online course helps transform high potential professionals into competent business managers and decision-makers in a short span of 1 year. The program is designed to make the students business-ready and capable of responding to complex business requirements that arise in a changing global business environment. Throughout the study, the emphasis is placed on skill development, team-work, inclusivity principles and value-based management creating “Business Ready Managers”.</p>
                 </div>
                 <div class="col-md-3 ">
                      <?php echo $courselist;?>
@@ -159,7 +159,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>     
+                <li>Exam Fees and GST 18% applicable. </li>     
             </ul>
         </div>
     </div>

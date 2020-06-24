@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>Post Graduate Program in Management + Master Program in Business Administration online certificate Program of BIMT India is structured in a flexible manner so that working executives can pursue this program without affecting their career. The practical relevance of the educational process in the program is our prime concern. It equips and strengthens students as well as management professional with skills to meet the challenges opportunity & job of the corporate world.</p>
+                    <p>Post Graduate Program in Management + Master Program in Business Administration online certificate Program of BIMT India is structured in a flexible manner so that working executives can pursue this program without affecting their career. The practical relevance of the educational process in the program is our prime concern. It equips and strengthens students as well as management professionals with skills to meet the challenges the opportunity & job of the corporate world.</p>
                 </div>
                 <div class="col-md-3 ">
                      <?php echo $courselist;?>
@@ -202,7 +202,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>     
+                <li>Exam Fees and GST 18% applicable. </li>     
             </ul>
         </div>
     </div>

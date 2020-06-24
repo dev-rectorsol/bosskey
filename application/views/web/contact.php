@@ -1,3 +1,6 @@
+<style>
+    .contact-bottom { background: #d81a1c;}
+</style>
 <!-- Start Banner -->
         <div class="inner-banner contact">
             <div class="container">
@@ -24,7 +27,7 @@
         <!-- Start Contact Us -->
         <section class="form-wrapper padding-lg">
             <div class="container">
-
+      
                     <form action="<?php echo base_url('home/submit_contact');?>" method="post" class="form-outer" id="ContactForm">
                     <div class="row input-row">
                         <div class="col-sm-6">
@@ -52,7 +55,7 @@
                         <div class="col-sm-12 m-t-20">
                             <!-- <button class="btn m-t-30">Apply Now <span class="icon-more-icon"></span></button> -->
                             <input type="hidden" id="get_csrf_hash" name="<?php echo $this->security->get_csrf_token_name();?>" value="<?php echo $this->security->get_csrf_hash();?>">
-                            <button type="submit" class="enquire-btn">Apply Now<span class="icon-more-icon"></span> </button>
+                            <button type="submit" class="enquire-btn btn animated fadeInUp">Send Message<span class="icon-more-icon"></span> </button>
                             <div class="msg"></div>
                         </div>
                     </div>
@@ -68,13 +71,17 @@
                 <div class="contact-detail">
                     <div class="address">
                         <div class="inner">
-                            <h3>Bosssky</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...</p>
+                            <h3>BOSSSKY INNOVATION PVT LTD</h3>
+                            <p>
+Shiv Shakti Tower
+4/35 , Vibhav Khand gomatinagar Lucknow  
+Pin 226010
+Near Mantri Awash</p>
                         </div>
                         <div class="inner">
-                            <h3>000 0000 000</h3>
+                            <h3>+91-9044075515</h3>
                         </div>
-                        <div class="inner"> <a href="mailto:info@edumart.com">info@bosssky.com</a> </div>
+                        <div class="inner"> <a href="mailto:info@bimtinstitute.com">info@bimtinstitute.com</a> </div>
                     </div>
                     <div class="contact-bottom">
                         <ul class="follow-us clearfix">

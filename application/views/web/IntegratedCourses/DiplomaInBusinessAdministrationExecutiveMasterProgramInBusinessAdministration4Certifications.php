@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career.</p> -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This integrated Online program with additional four certificates is designed to provide you with the knowledge and resources needed for today’s diverse and ever-changing business environment. After completing the course you will have the knowledge, experience and an elaborate skill-set to help you fast track your career. Online Program is specially designed for people to secure a leadership & Ranking the positions in competitive business environments. Participants in the program embark on a comprehensive academic journey that prepares them to successfully navigate the diverse challenges facing top executives in today’s dynamic global marketplace & also improve a Salary hike by BIMT India</p>
+                    <p>This integrated Online program with additional four certificates is designed to provide you with the knowledge and resources needed for today’s diverse and ever-changing business environment. After completing the course you will have the knowledge, experience, and an elaborate skill-set to help you fast track your career. The online program is specially designed for people to secure leadership & Ranking the positions in competitive business environments. Participants in the program embark on a comprehensive academic journey that prepares them to successfully navigate the diverse challenges facing top executives in today’s dynamic global marketplace & also improve a Salary hike by BIMT India.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="duration eligible clearfix">
                             <div class="icon"><span class="icon-eligibility-icon"></span></div>
-                            <div class="detail"> <span>ELIGIBILITY:</span>10+2 with minimum 3 Years of work experience</div>
+                            <div class="detail"> <span>ELIGIBILITY:</span>10+2 with minimum 3 Years of work experience.</div>
                         </div>
                         <div class="duration fee clearfix">
                             <div class="detail"> <span>COURSE FEE:</span> Rs.58,000 </div>
@@ -178,7 +178,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
                 
             </ul>
             

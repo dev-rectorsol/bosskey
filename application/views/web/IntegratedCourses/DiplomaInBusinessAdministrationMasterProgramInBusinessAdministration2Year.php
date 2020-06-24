@@ -30,7 +30,7 @@
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This integrated Online program of Diploma and Master Program in Business Administration is rigorous, challenging and intense. The Online program by BIMT India encourages learning in Distance beyond classroom discussions and the intense process prepares participants to analyse situations quickly and apply skills to real business situations. One learns to combine one’s industry expertise with the fundamentals of management that one is exposed to over the year gives you Job Growth & Salary Hike.</p>
+                    <p>This integrated Online program of the Diploma and Master Program in Business Administration is rigorous, challenging and intense. The Online program by BIMT India encourages learning in Distance beyond classroom discussions and the intense process prepares participants to analyze situations quickly and apply skills to real business situations. One learns to combine one’s industry expertise with the fundamentals of management that one is exposed to over the year gives you Job Growth & Salary Hike.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>

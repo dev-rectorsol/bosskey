@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,7 +23,7 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 3 Month</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process by BIMT India.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND -</strong>Talks about the eligibility criteria, best suited audience in Distance, etc.,</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
@@ -107,7 +107,7 @@ Start Banner -->
                             </li>
                             <li>
                                 <h4>Unit 2:</h4>
-                                <p>Optimizely, Kissmetrics, Crazyegg, Key Metrics, Conversion, Data Sources: Server Logs, Visitors’ Data, Search Engine Statistics, Conversion Funnels</p>
+                                <p>Optimizely, Kissmetrics, Crazyegg, Key Metrics, Conversion, Data Sources: Server Logs, Visitors’ Data, Search Engine Statistics, Conversion Funnels.</p>
                             </li>
                             <li>
                                 <h4>Unit 3:</h4>

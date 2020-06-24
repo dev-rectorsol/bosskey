@@ -34,9 +34,7 @@ Bosssky india</p>
                         <div class="cert-head">
                             <h3>About Course</h3>
                         </div>
-                        <p>The organizations prefer business leaders with Master Program in Business administration due to the credibility they bring to the company. With the ever-changing global business environment, there are numerous cutting edge technologies, methodologies and innovative approaches make it compulsory for professionals to learn to cope up with such challenges. Doing online Master program in Business Administration through 
-
-Bosssky India aids professionals to effectively understand the concepts behind business administration, learn various levels of consumer behavior, analyze market trends. Beyond developing managerial skills, the online program helps majorly in developing leadership qualities and efficiently handling complex business scenarios. </p>
+                        <p>The organizations prefer business leaders with Master Program in Business administration due to the credibility they bring to the company. With the ever-changing global business environment, there are numerous cutting edge technologies, methodologies and innovative approaches that make it compulsory for professionals to learn to cope up with such challenges. Doing an online Master's program in Business Administration through Bosssky India aids professionals to effectively understand the concepts behind business administration, learn various levels of consumer behavior, analyze market trends. Beyond developing managerial skills, the online program helps majorly in developing leadership qualities and efficiently handling complex business scenarios. </p>
                     </div>
                     <div class="col-md-3 ">
                         <?php include('layout/courselist.php'); ?>
@@ -103,7 +101,7 @@ Bosssky India aids professionals to effectively understand the concepts behind b
                                                 <li>
                                                    
                                                     <h4>Semester I</h4>
-                                                    <p>There are four core subjects covered in semester I.</p>
+                                                    <p>There are four core subjects covered in I <sup>st</sup> semester .</p>
                                                     <ul>
                                                         <li>Principles & Practices of Management</li>
                                                         <li>Human Resource Management</li>
@@ -181,10 +179,10 @@ Bosssky India aids professionals to effectively understand the concepts behind b
                                                 <li>
                                                     <h4>By completing Master Program in Business Administration from BIMT India, the students/professionals will:</h4>
                                                     <ul>
-                                                        <li>Pursue leadership roles in this globally competitive environment</li>
-                                                        <li>Enhance efficiency to handle challenging business environment</li>
-                                                        <li>Gain in-depth and strong online knowledge in principles and practices involved in business administration</li>
-                                                        <li>Learn the intricacies involved in people management, workforce enhancement, talent enrichment that results in improving retention rate</li>
+                                                        <li>Pursue leadership roles in this globally competitive environment.</li>
+                                                        <li>Enhance efficiency to handle challenging business environment.</li>
+                                                        <li>Gain in-depth and strong online knowledge in principles and practices involved in business administration.</li>
+                                                        <li>Learn the intricacies involved in people management, workforce enhancement, talent enrichment that results in improving retention rate.</li>
                                                         
                                                     </ul>
                                                 </li>

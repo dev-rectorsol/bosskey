@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>The Online diploma in Business Administration course offers entry level professionals or mid-level professionals to gain knowledge about the complexity of the business operations. This course aids the aspiring professionals to make easy entry in corporate sectors within a short duration.The students gain knowledge about the general management concepts involved in business administration & management. The curriculum has the right blend of theoretical and practical approach which gives them the right confidence to face the changing business environment. Also, it has become compulsory for all business administration professionals to understand the complexities involved in the marketing function. This course helps them to acquire knowledge about how to successfully achieve customer satisfaction and analyze the market trend. Another core aspect with this course is an opportunity to learn effective business communication. For every business, effective communication is very important. The professionals gain confidence in communicating with people at all levels by BIMT India.</p>
+                    <p>The Online Diploma in Business Administration course offers entry-level professionals or mid-level professionals to gain knowledge about the complexity of the business operations. This course aids aspiring professionals to make an easy entry in corporate sectors within a short duration. The students gain knowledge about the general management concepts involved in business administration & management. The curriculum has the right blend of theoretical and practical approach which gives them the right confidence to face the changing business environment. Also, it has become compulsory for all business administration professionals to understand the complexities involved in the marketing function. This course helps them to acquire knowledge about how to successfully achieve customer satisfaction and analyze the market trend. Another core aspect of this course is an opportunity to learn effective business communication. For every business, effective communication is very important. The professionals gain confidence in communicating with people at all levels by BIMT India.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -134,7 +134,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of BIMT Institute of Business Management”.</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
                 
             </ul>
             
@@ -147,14 +147,14 @@ Start Banner -->
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>By completing Online Diploma in Business Administration from BIMT Institute, the students/professionals will:</h4>
+                <h4>By completing the Online Diploma in Business Administration from BIMT Institute, the students/professionals will:</h4>
                 <ul>
-                    <li>Gain skills to understand the complexity of the business operations</li>
-                    <li>Enhance the understanding of business administration and strategy</li>
-                    <li>Gain confidence to communicate effectively at all levels</li>
-                    <li>Understand the marketing trends</li>
-                    <li>Build an ability to face challenges in a complex business environment</li>
-                    <li>Gain job opportunities quickly in corporate sector and various industries</li>
+                    <li>Gain skills to understand the complexity of business operations.</li>
+                    <li>Enhance the understanding of business administration and strategy.</li>
+                    <li>Gain confidence to communicate effectively at all levels.</li>
+                    <li>Understand marketing trends.</li>
+                    <li>Build an ability to face challenges in a complex business environment.</li>
+                    <li>Gain job opportunities quickly in the corporate sector and various industries.</li>
                 </ul>
             </li>
         </ul>
@@ -165,9 +165,9 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>After 10th or 12th passed with minimum 1 year work experience</li>
-            <li>Those who want an entry into corporate sector and various industries</li>
-            <li>Mid- level professionals who would like to gain knowledge in Business administration and to get promotion to next level in their career</li>    
+            <li>After 10th or 12th passed with a minimum of 1-year work experience.</li>
+            <li>Those who want entry into the corporate sector and various industries.</li>
+            <li>Mid-level professionals who would like to gain knowledge in Business administration and to get promotion to the next level in their career.</li>    
         </ul>
     </div>
     
@@ -179,9 +179,9 @@ Start Banner -->
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>Rapidly get job opportunity for the entry level professionals in corporate sectors and various industries</h4>
-                <li><h4>Get supervisor opportunityfor mid-level professional in Business administration</h4></li>
-                <li><h4>Various job opportunities for entry level professional are</h4></li>
+                <h4>Rapidly get job opportunities for entry-level professionals in corporate sectors and various industries.</h4>
+                <li><h4>Get supervisor opportunity for mid-level professionals in Business administration.</h4></li>
+                <li><h4>Various job opportunities for entry level professional are:</h4></li>
                 <ul>
                     <li>Administrative Assistance</li>
                     <li>Office Coordinator</li>

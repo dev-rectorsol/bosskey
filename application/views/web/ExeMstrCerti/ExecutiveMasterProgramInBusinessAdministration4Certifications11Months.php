@@ -23,10 +23,10 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Master Program in Business Administration achieve a rewarding career.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
@@ -37,7 +37,7 @@
                         <li>3. Digital Marketing Certification</li>
                         <li>4. Excellence in Specialisation 1</li>
                     </ul> <br>
-                    <p>Mastering and obtaining Online Six Sigma Green Belt, Project Management, Digital Marketing certification along with completing Master Program in Business Administration enhance the efficiency in Distance of senior level professionals in the challenging work environments.This superior quality course from BIMT Institute of Business Management also gives an opportunity to obtain one more certification in the field the professionals want to excel. Beyond creating experiential learning which helps to advance the knowledge, the course also improves the operational efficacy. The Executive program aids in raising the career bar from middle management to senior management but there is importance given to the additional certifications</p>
+                    <p>Mastering and obtaining Online Six Sigma Green Belt, Project Management, Digital Marketing certification along with completing Master Program in Business Administration enhance the efficiency in Distance of senior-level professionals in the challenging work environments. This superior quality course from BIMT Institute of Business Management also allows obtaining one more certification in the field the professionals want to excel in Beyond creating experiential learning which helps to advance the knowledge, the course also improves the operational efficacy. The Executive program aids in raising the career bar from middle management to senior management but there is the importance given to the additional certifications.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -199,12 +199,12 @@
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>By completing Online Executive Master Program in Business Administration with four certifications from BIMT Institute of Business Management, the students/professionals will:</h4>
+                <h4>By completing the Online Executive Master Program in Business Administration with four certifications from BIMT Institute of Business Management, the students/professionals will:</h4>
                 <ul>
-                    <li>Get unique and valuable opportunity to advance education while continuing to work</li>
+                    <li>Get a unique and valuable opportunity to advance education while continuing to work.</li>
                     <li>Gain theory, skills, experiential learning and research opportunities to advance knowledge and enhance success in respective flourishing fields.</li>
                     <li>Build various capabilities to lead cross functional initiative and corporate projects.</li>
-                    <li>Increase value as a project management professional and give them the scope to lead, direct, and implement challenging projects by BIMT India</li>
+                    <li>Increase value as a project management professional and give them the scope to lead, direct, and implement challenging projects by BIMT India.</li>
                 </ul>
             </li>
         </ul>
@@ -216,11 +216,11 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Those who are already employed as mid-level career executives</li>
-            <li>Experienced professionals wanting to enhance their proficiency in functional management and to enhance their management skills</li>
-            <li>Those who possess a basic competence in the fundamentals of business and emphasizes procedure, insight and ability to apply new learnings in real time scenario</li>
-            <li>Requirement of at least five to eight years of professional business experience and several years of managerial experience</li>
-            <li>Those who want to acquire certification in Six Sigma, Project Management and Digital Marketing along with Executive Master Program in Business Administration.</li>
+            <li>Those who are already employed as mid-level career executives.</li>
+            <li>Experienced professionals wanting to enhance their proficiency in functional management and to enhance their management skills.</li>
+            <li>Those who possess basic competence in the fundamentals of business and emphasizes procedure, insight, and ability to apply new learnings in the real-time scenario.</li>
+            <li>Requirement of at least five to eight years of professional business experience and several years of managerial experience.</li>
+            <li>Those who want to acquire certification in Six Sigma, Project Management, and Digital Marketing along with Executive Master Program in Business Administration.</li>
         </ul>
     </div>
     
@@ -234,8 +234,8 @@
             <li>
                 <h4>On completion of Executive Master Program in Business Administration with 4 certifications from BIMT Institute of Business Management, the students achieve a rewarding career:</h4>
                 <ul>
-                    <li>Provides midcareer professionals the ability to climb up the corporate ladder and advance to an Executive Management Position</li>
-                    <li>Offer fundamental knowledge that can be applied to all kinds of situations while also supporting personal and leadership development</li>
+                    <li>Provides midcareer professionals the ability to climb up the corporate ladder and advance to an Executive Management Position.</li>
+                    <li>Offer fundamental knowledge that can be applied to all kinds of situations while also supporting personal and leadership development.</li>
                     <li>Helps in making significant career transitions, find a new job or garner a promotion, Salary growth or launch a new business.</li>
                 </ul>
             </li>

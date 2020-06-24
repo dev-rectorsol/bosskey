@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -31,7 +31,7 @@ Start Banner -->
                         <h3>About Course</h3>
                     </div>
                     <p>The Post Graduate Program in Business Analytics from BIMT Institute is intended for participants who want to build their careers in Business Analytics.</p>
-                    <p>The Program is carefully crafted by distinguished academic and industry professionals to help participants develop a though conceptual understanding of the essentials and advanced topics in Business Analytics.</p>
+                    <p>The Program is carefully crafted by distinguished academics and industry professionals to help participants develop a though conceptual understanding of the essentials and advanced topics in Business Analytics.</p>
                     <p>The Program intends for participants to apply the above analytics skills-sets to solve real-world business problems.</p>
                     <p>Post Graduate Program in Business Analytics program intends participants to handle a real-world business problem through various tools and methodologies discussed in the curriculum.</p>
                 </div>
@@ -192,9 +192,9 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma graduates</li>
-            <li>This course is designed for the professionals, who wish to make a career in business analytics and have some Knowledge of IT. There are no pre-requisites for this course.</li>
-            <li>Professionals with 2-10 years of experience will be strongly preferred</li>
+            <li>Degree/Diploma graduates.</li>
+            <li>This course is designed for professionals, who wish to make a career in business analytics and have some knowledge of IT. There are no pre-requisites for this course.</li>
+            <li>Professionals with 2-10 years of experience will be strongly preferred.</li>
             <li>To gain an understanding of how managers use business analytics to formulate and solve business problems and to support managerial decision making.</li>
         </ul>
     </div>
@@ -207,25 +207,25 @@ Start Banner -->
     <div class="col-sm-12">
         <ul class="content">
             <li>
-                <h4>On completion of Post Graduate Program in Business Analytics from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
+                <h4>On completion of the Post Graduate Program in Business Analytics from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
                 <ul>
-                    <li>Improving the decision-makingprocess (quality and relevance)</li>
-                    <li>Speeding up of decision-making process</li>
-                    <li>Better alignment with strategy</li>
-                    <li>Realising cost efficiency</li>
-                    <li>Improving competitiveness</li>
-                    <li>Producing a single, unified view of enterprise information</li>
-                    <li>Synchronising financial and operational strategy</li>
-                    <li>Increase revenues</li>
-                    <li>Sharing information with a wider audience</li>
+                    <li>Improving the decision-making process (quality and relevance).</li>
+                    <li>Speeding up of the decision-making process.</li>
+                    <li>Better alignment with strategy.</li>
+                    <li>Realizing cost-efficiency.</li>
+                    <li>Improving competitiveness.</li>
+                    <li>Producing a single, unified view of enterprise information.</li>
+                    <li>Synchronizing financial and operational strategy.</li>
+                    <li>Increase revenues.</li>
+                    <li>Sharing information with a wider audience.</li>
                 </ul>
             </li>
             <li>
                 <h4>Some of the companies known for using cutting edge Analytics (in India) are:</h4>
                 <ul class="contentList2">
-                    <li>Technology leaders: Google, Facebook, Linkedin</li>
+                    <li>Technology leaders: Google, Facebook, Linkedin.</li>
                     <li>Banking, Financial Services and Insurance (BFSI):</li>
-                    <li>Capital One, American Express, ICICI, HDFC</li>
+                    <li>Capital One, American Express, ICICI, HDFC.</li>
                 </ul>
             </li>
         </ul>

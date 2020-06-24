@@ -147,4 +147,84 @@ $route['SixSigmaBlackBeltProfessionalTotalQualityManagementProfessional'] = 'hom
 $route['SSGB_SSBB_TQM_PMCertification'] = 'home/SSGB_SSBB_TQM_PMCertification';
 $route['WebAnalyticsProfessionalCertification'] = 'home/WebAnalyticsProfessionalCertification';
 
+//******** specialization *********** //
+
+
+$route['specialization'] = 'home/specialization';
+$route['aviationManagement'] = 'home/aviationManagement';
+$route['agricultureManagement'] = 'home/agricultureManagement';
+$route['bankingAndFinancialServicesManagement'] = 'home/bankingAndFinancialServicesManagement';
+$route['businessAnalytics'] = 'home/businessAnalytics';
+$route['constructionManagement'] = 'home/constructionManagement';
+$route['customerRelationshipManagement'] = 'home/customerRelationshipManagement';
+$route['digitalMarketing'] = 'home/digitalMarketing';
+$route['energyManagement'] = 'home/energyManagement';
+$route['entrepreneurshipManagement'] = 'home/entrepreneurshipManagement';
+$route['eventManagement'] = 'home/eventManagement';
+$route['exportAndImportManagement'] = 'home/exportAndImportManagement';
+$route['financeMnagement'] = 'home/financeMnagement';
+$route['foreignTradeManagement'] = 'home/foreignTradeManagement';
+$route['healthAndHospitalManagement'] = 'home/healthAndHospitalManagement';
+$route['hospitalityManagement'] = 'home/hospitalityManagement';
+$route['hotelManagement'] = 'home/hotelManagement';
+$route['humanResourceManagement'] = 'home/humanResourceManagement';
+$route['informationSystemManagement'] = 'home/informationSystemManagement';
+$route['informationTechnology'] = 'home/informationTechnology';
+$route['insuranceManagement'] = 'home/insuranceManagement';
+$route['internationalBusinessManagement'] = 'home/internationalBusinessManagement';
+$route['logisticManagement'] = 'home/logisticManagement';
+$route['marketingManagement'] = 'home/marketingManagement';
+$route['materialsManagement'] = 'home/materialsManagement';
+$route['mediaJournalismManagement'] = 'home/mediaJournalismManagement';
+$route['oilAndGasManagement'] = 'home/oilAndGasManagement';
+$route['operationsManagement'] = 'home/operationsManagement';
+$route['pharmaceuticalsManagement'] = 'home/pharmaceuticalsManagement';
+$route['personnelManagement'] = 'home/personnelManagement';
+$route['powerManagement'] = 'home/powerManagement';
+$route['productionManagement'] = 'home/productionManagement';
+$route['projectManagement'] = 'home/projectManagement';
+$route['qualityManagement'] = 'home/qualityManagement';
+$route['retailManagement'] = 'home/retailManagement';
+$route['riskManagement'] = 'home/riskManagement';
+$route['ruralManagement'] = 'home/ruralManagement';
+$route['safetyManagement'] = 'home/safetyManagement';
+$route['sixSigmaManagement'] = 'home/sixSigmaManagement';
+$route['supplyChainManagement'] = 'home/supplyChainManagement';
+$route['salesManagement'] = 'home/salesManagement';
+$route['travelAndTourismManagement'] = 'home/travelAndTourismManagement';
+$route['telecomManagement'] = 'home/telecomManagement';
+
+
+$route['alumniSpeak'] = 'home/alumniSpeak';
+
+
+$route['onlineAdmissionForm'] = 'home/onlineAdmissionForm';
+$route['applyPayOnlineFees'] = 'home/applyPayOnlineFees';
+$route['facultyDetails'] = 'home/facultyDetails';
+$route['studentLogin'] = 'home/studentLogin';
+$route['studentFacility'] = 'home/studentFacility';
+$route['aboutExam'] = 'home/aboutExam';
+$route['liveLectureCalendar'] = 'home/liveLectureCalendar';
+$route['studentGuidelines'] = 'home/studentGuidelines';
+$route['studentFAQ'] = 'home/studentFAQ';
+$route['specimenCertificate'] = 'home/specimenCertificate';
+$route['sampleExamPaper'] = 'home/sampleExamPaper';
+
+$route['payExamFee'] = 'home/payExamFee';
+$route['eLearning'] = 'home/eLearning';
+$route['blog'] = 'home/blog';
+
+
+$route['studentPlacement'] = 'home/studentPlacement';
+
 $route['contact'] = 'home/contact';
+
+// write by arti
+  $route['vision'] = 'home/vision';
+  $route['whytrustbimt'] = 'home/whytrustbimt';
+  $route['theteam'] = 'home/theteam';
+  $route['members'] = 'home/members';
+  $route['collaboration'] = 'home/collaboration';  
+  $route['ibmtinstitue'] = 'home/ibmtinstitue';
+  $route['ibmtinstituecredentials'] = 'home/ibmtinstituecredentials';
+  $route['ourAlumni'] = 'home/ourAlumni';

@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -30,7 +30,7 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>Our Advanced Diploma in Business Administration (ADBA) online program is designed especially for students who want an academic-level business education, but who also want to keep their future options flexible. Advanced Diploma in Business Administration certification program is covering all of the key areas of business including accounting, finance, production, marketing, industrial relations, law, business ethics, business strategy and human resources management, provides critical knowledge and skills for individuals to manage business operation efficiently. This Online Advanced Diploma also aims to develop students in their strategic thinking and analytical abilities which are essential for the new breed of managers and executives by BIMT India</p>
+                    <p>Our Advanced Diploma in Business Administration (ADBA) online program is designed especially for students who want an academic-level business education, but who also want to keep their future options flexible. Advanced Diploma in Business Administration certification program is covering all of the key areas of business including accounting, finance, production, marketing, industrial relations, law, business ethics, business strategy, and human resources management, which provides critical knowledge and skills for individuals to manage business operation efficiently. This Online Advanced Diploma also aims to develop students in their strategic thinking and analytical abilities which are essential for the new breed of managers and executives by BIMT India.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -132,7 +132,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of BIMT Institute of Business Management”.</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
                 
             </ul>
             

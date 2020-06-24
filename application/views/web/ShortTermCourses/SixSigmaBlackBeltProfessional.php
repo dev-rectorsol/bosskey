@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -23,12 +23,12 @@ Start Banner -->
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 6 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> –who wants to increase a salary range </p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>A Six Sigma Black Belt is a professional who is well versed in the Six Sigma Methodology, who leads complex improvement projects, typically in a full-time capacity. A Six Sigma Black Belt Online Certification by BIMT India possesses a through understanding of all aspects of the Distance Six Sigma Method including a high-level of competence in the subject matters contained within the phases of Define, Measure, Analyze, Improve and Control (DMAIC) as defined by the  Six Sigma Black Belt Body of Knowledge specified for the ASQ Certified Six Sigma Black Belt Examination. A Six Sigma Black Belt understands how to implement, perform, interpret and apply Lean Six Sigma at an advanced level of proficiency.</p>
+                    <p>A Six Sigma Black Belt is a professional who is well versed in the Six Sigma Methodology, who leads complex improvement projects, typically in a full-time capacity. A Six Sigma Black Belt Online Certification by BIMT India possesses a thorough understanding of all aspects of the Distance Six Sigma Method including a high level of competence in the subject matters contained within the phases of Define, Measure, Analyze, Improve and Control (DMAIC) as defined by the  Six Sigma Black Belt Body of Knowledge specified for the ASQ Certified Six Sigma Black Belt Examination. A Six Sigma Black Belt understands how to implement, perform, interpret and apply Lean Six Sigma at an advanced level of proficiency.</p>
                     <div class="cert-head">
                         <h3>Course Highlight</h3>
                     </div>
@@ -208,7 +208,7 @@ Start Banner -->
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable. </li>
             </ul>
         </div>
     </div>

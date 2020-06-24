@@ -5,7 +5,7 @@
             <nav class="navbar navbar-inverse sidebar" role="navigation">
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav nav1">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Management Programs <span class="caret"></span></a>
                             <ul class="dropdown-menu forAnimate" role="menu">

@@ -1,12 +1,12 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <ul class="nav">
     <li class="nav-item nav-category">Main</li>
-    <li class="nav-item">
-      <a class="nav-link" href="<?php echo base_url('admin/dashboard')?>">
-        <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
-        <span class="menu-title">Dashboard</span>
-      </a>
-    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('admin/dashboard')?>">
+          <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+          <span class="menu-title">Dashboard</span>
+        </a>
+      </li>
 
     <!-- <li class="nav-item">
       <a class="nav-link" href="<?php echo base_url('admin/enquire')?>">
@@ -14,20 +14,36 @@
         <span class="menu-title">Enquire List</span>
       </a>
     </li> -->
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-        <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
-        <span class="menu-title">Enquire </span>
-        <i class="menu-arrow"></i>
-      </a>
-      <div class="collapse" id="ui-basic">
-        <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/enquire')?>">Enquire List</a></li>
-          <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/enquire/contact')?>">Contact List</a></li>
+      <li class="nav-item">
+        <a class="nav-link " data-toggle="collapse" href="#ui-enquiry" aria-expanded="false" aria-controls="ui-basic">
+          <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+          <span class="menu-title">Enquire </span>
+          <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="ui-enquiry">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/enquire')?>">Enquire List</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/enquire/contact')?>">Contact List</a></li>
+          </ul>
+        </div>
+      </li>
 
-        </ul>
-      </div>
-    </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" href="#ui-menu" aria-expanded="false" aria-controls="ui-basic">
+          <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+          <span class="menu-title">Menu</span>
+          <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="ui-menu">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/createMenu')?>">Create Menu</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/category')?>">Category</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/sub_category/')?>">Sub Category</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Course Details</a></li>
+            <!-- <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Course List</a></li> -->
+          </ul>
+        </div>
+      </li>
 
     <li class="nav-item">
       <a class="nav-link" href="<?php echo base_url('admin/onlineform')?>">
@@ -44,12 +60,12 @@
       <div class="collapse" id="ui-basic">
         <ul class="nav flex-column sub-menu">
           <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/setting')?>">Logo</a></li>
-          <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/setting/email')?>">seting</a></li>
+          <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/setting/email')?>">setting</a></li>
           <!-- <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/setting/toll')?>">Toll Free Number</a></li> -->
         </ul>
       </div>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link" href="pages/icons/mdi.html">
         <span class="icon-bg"><i class="mdi mdi-contacts menu-icon"></i></span>
         <span class="menu-title">Icons</span>
@@ -102,6 +118,6 @@
         <a href="#" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
           <span class="menu-title">Log Out</span></a>
       </div>
-    </li>
+    </li> -->
   </ul>
 </nav>

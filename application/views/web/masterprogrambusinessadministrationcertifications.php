@@ -32,7 +32,7 @@
                         <div class="cert-head">
                             <h3>About Course</h3>
                         </div>
-                        <p>Enhancing knowledge in international business is vital; acquiring a certification from BIMT Institute of Business Management by completing  in Master Program in International Business brings is the best solution. As a part of online Master Program in International Business from BIMT Institute of Business Management, the executives will learn various concepts related to international business management, marketing management in global perspective, International Trade and Export Import Management. These subjects pave a path to those who want to work in a global start up environment or an aspiring Entrepreneur who is conducting business in international level.</p>
+                        <p>Enhancing knowledge in international business is vital; acquiring a certification from BIMT Institute of Business Management by completing in Master Program in International Business brings is the best solution. As a part of the online Master Program in International Business from BIMT Institute of Business Management, the executives will learn various concepts related to international business management, marketing management in the global perspective, International Trade and Export-Import Management. These subjects pave a path to those who want to work in a global start-up environment or an aspiring Entrepreneur who is conducting business at the international level.</p>
                     </div>
                     <div class="col-md-3 ">
                         <?php include('layout/courselist.php'); ?>
@@ -194,14 +194,14 @@
                                                 <li>
                                                     <h4>By completing Master Program in Business Administration from BIMT, the students/professionals/executives will:</h4>
                                                     <ul>
-                                                    <li>Learn business management methodologies in global approaches</li>
-                                                    <li>Study concepts based on specific economic and government perspectives of various countries</li>
-                                                    <li>Learn how to conduct business in unfamiliar scenarios</li>
-                                                    <li>Build an ability to work in multi or cross cultural environment</li>
-                                                    <li>Nurture an ability to lead international and virtual teams</li>
-                                                    <li>Boost a capability to understand various traditions that lead to agility, adaptability and innovative business approaches</li>
-                                                    <li>Build a capability to manage globally diversified teams</li>
-                                                    <li>Enhance knowledge in International Trade & Export Import Management by BIMT India</li> 
+                                                    <li>Learn business management methodologies in global approaches.</li>
+                                                    <li>Study concepts based on specific economic and government perspectives of various countries.</li>
+                                                    <li>Learn how to conduct business in unfamiliar scenarios.</li>
+                                                    <li>Build an ability to work in multi or cross cultural environment.</li>
+                                                    <li>Nurture an ability to lead international and virtual teams.</li>
+                                                    <li>Boost a capability to understand various traditions that lead to agility, adaptability and innovative business approaches.</li>
+                                                    <li>Build a capability to manage globally diversified teams.</li>
+                                                    <li>Enhance knowledge in International Trade & Export Import Management by BIMT India.</li> 
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -238,10 +238,10 @@
                                                 <li>
                                                     <h4>On completion of Master Program in International Business  from BIMT Institute, the students achieve a satisfying career growth by BIMT India such as:</h4>
                                                     <ul>
-                                                    <li>Develop cultural awareness and broaden the view related to personal and professional growth</li>
-                                                    <li>Grow well in a cross cultural organizational environment</li>
-                                                    <li>Accomplish high in international business scenario and achieve rapid professional Success & Salary Growth</li>
-                                                    <li>Acquire international leadership ranking roles easily and attain financial and professional & Job growth</li>
+                                                    <li>Develop cultural awareness and broaden the view related to personal and professional growth.</li>
+                                                    <li>Grow well in a cross cultural organizational environment.</li>
+                                                    <li>Accomplish high in international business scenario and achieve rapid professional Success & Salary Growth.</li>
+                                                    <li>Acquire international leadership ranking roles easily and attain financial and professional & Job growth.</li>
                                                     </ul>
                                                 </li>
                                             </ul>

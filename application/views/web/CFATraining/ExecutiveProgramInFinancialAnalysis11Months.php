@@ -30,7 +30,7 @@
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>BIMT Institute Executive Program in Financial Analysis is skill-building course covering accounting, financial modelling, valuation and equity research. Through this course participants build their careers across a wide variety of roles in investment banking, corporate finance and private equity. If you are Working Professional or are a fresh graduate and are interested in building a long term career in Equity Research, Executive Program in Financial Analysis is the ideal program for you with similar curriculum of CFA. This program will also help you to prepare for the world’s leading qualification in the field of Investment Analysis.</p>
+                    <p>BIMT Institute Executive Program in Financial Analysis is a skill-building course covering accounting, financial modeling, valuation, and equity research. Through this course, participants build their careers across a wide variety of roles in investment banking, corporate finance and private equity. If you are Working Professional or are a fresh graduate and are interested in building a long term career in Equity Research, the Executive Program in Financial Analysis is the ideal program for you with a similar curriculum of CFA. This program will also help you to prepare for the world’s leading qualification in the field of Investment Analysis.</p>
                     <div class="cert-head">
                         <h3>WHY SHOULD YOU CONSIDER A CAREER AS A FINANCIAL ANALYSIS?</h3>
                     </div>

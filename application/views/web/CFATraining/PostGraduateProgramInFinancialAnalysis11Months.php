@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 11 Months</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> - Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
                     <!-- <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p> -->
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHY SHOULD YOU CONSIDER A CAREER AS A FINANCIAL ANALYSIS?&nbsp;</strong></p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>BIMT Institute offers various Post Graduate Program in Financial Analysis globally recognized courses to prepare candidates for careers in Financial Analysis. We offer this course with similar Curriculum of CFA. If you are looking for a short term hands on program to kick start your career in Financial Analysis, is the relevant program for you. The syllabus includes extensive coverage of Financial Statements Analysis, (this helps to understand the macro-economic situation and can be used to infer a company’s financial status in economic upswings and downswings).</p>
+                    <p>BIMT Institute offers various Post Graduate Program in Financial Analysis globally recognized courses to prepare candidates for careers in Financial Analysis. We offer this course with a similar Curriculum of CFA. If you are looking for a short term hands-on program to kick start your career in Financial Analysis, it is the relevant program for you. The syllabus includes extensive coverage of Financial Statements Analysis, (this helps to understand the macro-economic situation and can be used to infer a company’s financial status in economic upswings and downswings).</p>
                     <div class="cert-head">
                         <h3>WHY SHOULD YOU CONSIDER A CAREER AS A FINANCIAL ANALYSIS?</h3>
                     </div>

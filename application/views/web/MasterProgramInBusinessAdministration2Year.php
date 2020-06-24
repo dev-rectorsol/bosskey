@@ -30,9 +30,9 @@
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>Master Program in Business Administration Certification is designed to provide students with a range of analytic, strategic and leadership skills which will prepare them for increasingly competitive careers in business management in the corporate and public sectors. These programs offer grounding in fundamental business areas such as accounting, finance, organizational behavior, economics, marketing and management. The BIMT India ability to cope with rapid organisational and technological change is developed through and understanding of organisational behaviour, information systems and organisational change and development. Who should join Master program in Business administration online Program? This course is ideal for:</p>
-                    <p style="text-align: justify;">1 On-job professionals planning to upgrade their professional managerial skill.</p>
-                    <p style="text-align: justify;">2 Students, have already accomplished a graduation degree.</p>
+                    <p>Master Program in Business Administration Certification is designed to provide students with a range of analytic, strategic and leadership skills that will prepare them for increasingly competitive careers in business management in the corporate and public sectors. These programs offer ground in fundamental business areas such as accounting, finance, organizational behavior, economics, marketing, and management. BIMT India's ability to cope with rapid organizational and technological change is developed through an understanding of organizational behavior, information systems, and organizational change and development. Who should join the Master program in Business administration online Program? This course is ideal for:</p>
+                    <p style="text-align: justify;">1  On-job professionals planning to upgrade their professional managerial skills.</p>
+                    <p style="text-align: justify;">2  Students have already accomplished a graduation degree.</p>
                     <p style="text-align: justify;">3 Students have accomplished a post-graduate degree.</p>
                     <p style="text-align: justify;">4 Mid-level executives who are expecting their promotion at managerial level but lacks professional certification.</p>
                 </div>

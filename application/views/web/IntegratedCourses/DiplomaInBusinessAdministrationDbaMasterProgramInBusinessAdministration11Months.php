@@ -30,7 +30,7 @@
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This Online Program accelerates your career progression with this intensive management programme designed to unlock your leadership potential ranking and increase your strategic impact. You will develop an understanding of the wider landscape of management across strategy, marketing, finance, innovation, organisational behaviour and leadership. After successfully completing the course, you will gain the insight needed to master the challenges of management in a complex global environment</p>
+                    <p>This Online Program accelerates your career progression with this intensive management program designed to unlock your leadership potential ranking and increase your strategic impact. You will develop an understanding of the wider landscape of management across strategy, marketing, finance, innovation, organizational behavior, and leadership. After successfully completing the course, you will gain the insight needed to master the challenges of management in a complex global environment.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -86,7 +86,7 @@
                 
                 <div class="row">
                     <div class="col-sm-12 txt-block">
-                        <h4>Diploma in Business Administration + Master Program in Business Administration online Certification from BIMT Institute of Business Management comprises of 11 distance core subjects taught under 2 semesters</h4>
+                        <h4>Diploma in Business Administration + Master Program in Business Administration online Certification from BIMT Institute of Business Management comprises of 11 distance core subjects taught under 2 semesters.</h4>
                     </div>
                     <div class="col-sm-4">
                         

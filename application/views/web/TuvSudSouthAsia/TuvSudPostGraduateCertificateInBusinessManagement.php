@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -31,13 +31,13 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>TUV SUD Post Graduate Certificate in Business Management will enable you to make a real difference in your management practice through the active use of frameworks, theories and tools. It will help you to develop a good grounding in the theory and practice of managing and leading, covering the core functions and disciplines of management and helping you make the connections between them.</p>
+                    <p>TUV SUD Post Graduate Certificate in Business Management will enable you to make a real difference in your management practice through the active use of frameworks, theories, and tools. It will help you to develop a good grounding in the theory and practice of managing and leading, covering the core functions and disciplines of management and helping you make the connections between them.</p>
                     <div class="cert-head">
                         <h3>About TUV SUD</h3>
                     </div>
-                    <p>TUV SUD is a largest and oldest certifying body worldwide with an extensive experience of over 150 years in systems, product, Processes and people.</p>
+                    <p>TUV SUD is the largest and oldest certifying body worldwide with extensive experience of over 150 years in systems, products, processes, and people.</p>
 
-                    <p>TUV SUD Academy Certification Body for persons, hereinafter referred to “certification Body for Persons”, performs examinations and certifications of persons in various subjects’ areas at global level.</p>
+                    <p>TUV SUD Academy Certification Body for persons hereinafter referred to “certification Body for Persons”, performs examinations and certifications of persons in various subjects’ areas at the global level.</p>
 
                     <div class="cert-head">
                         <h3>Why Choose Post Graduate Certificate In Business Management?</h3>
@@ -217,11 +217,11 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma graduates / working professional</li>
-            <li>This certificate program is ideal for Business Manager looking to update their skills</li>
-            <li>project and product managers</li>
-            <li>anyone responsible for producing or executing a Business</li>
-            <li>It is also a perfect opportunity for non-marketing professionals and business leaders in all functional areas to develop their marketing strategy around their customers, their products and services, their market, or their brand by BIMT India</li>
+            <li>Degree/Diploma graduates / working professional.</li>
+            <li>This certificate program is ideal for Business Manager looking to update their skills.</li>
+            <li>project and product managers.</li>
+            <li>anyone responsible for producing or executing a Business.</li>
+            <li>It is also a perfect opportunity for non-marketing professionals and business leaders in all functional areas to develop their marketing strategy around their customers, their products and services, their market, or their brand by BIMT India.</li>
         </ul>
     </div>
     

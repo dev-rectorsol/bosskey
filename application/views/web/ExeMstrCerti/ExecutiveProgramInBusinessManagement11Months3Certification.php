@@ -180,7 +180,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable.</li>
                 
             </ul>
             
@@ -195,12 +195,12 @@
             <li>
                 <h4>By completing Online Executive Master Program in Business Administration from BIMT Institute of Business Management,the students/professionals/executives will:</h4>
                 <ul>
-                    <li>Attain advanced, in-depth, focused and strong knowledge in principles and practices involved in all functions of business administration</li>
-                    <li>Rapidly trailup to the leadership roles in this globally competitive world</li>
-                    <li>Improve efficiency  which worth it to handle challenging and ever-changing business environment</li>
-                    <li>Develop acapability to apply innovative approaches to address business problems</li>
-                    <li>Acquire skills in HR Management, Marketing Management, Managerial Economics, Organizational Structure & Behaviour, Financial Management and Business Communication by BIMT India</li>
-                    <li>An opportunity to choose two core subjects in which the students want to gain cutting-edge expertise</li>
+                    <li>Attain advanced, in-depth, focused and strong knowledge in principles and practices involved in all functions of business administration.</li>
+                    <li>Rapidly trailup to the leadership roles in this globally competitive world.</li>
+                    <li>Improve efficiency  which worth it to handle challenging and ever-changing business environment.</li>
+                    <li>Develop acapability to apply innovative approaches to address business problems.</li>
+                    <li>Acquire skills in HR Management, Marketing Management, Managerial Economics, Organizational Structure & Behaviour, Financial Management and Business Communication by BIMT India.</li>
+                    <li>An opportunity to choose two core subjects in which the students want to gain cutting-edge expertise.</li>
                 </ul>
             </li>
         </ul>
@@ -212,15 +212,15 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma holders in any discipline (or equivalent) with minimum one year of work experience</li>
-            <li>Project Managers/Team Leaders</li>
-            <li>Sales/Marketing/Lead Generation/Business Administration Professionals</li>
-            <li>Directors/Vice Presidents/Senior Executives</li>
-            <li>Aspiring CEOs/CFOs/CTOs</li>
-            <li>Those who want to grow up in leadership positions</li>
-            <li>Those who want to move from technical role to management roles</li>
-            <li>Those who aspire to be an Entrepreneur</li>
-            <li>Those who are in the line of starting a start-up</li>
+            <li>Degree/Diploma holders in any discipline (or equivalent) with minimum one year of work experience.</li>
+            <li>Project Managers/Team Leaders.</li>
+            <li>Sales/Marketing/Lead Generation/Business Administration Professionals.</li>
+            <li>Directors/Vice Presidents/Senior Executives.</li>
+            <li>Aspiring CEOs/CFOs/CTOs.</li>
+            <li>Those who want to grow up in leadership positions.</li>
+            <li>Those who want to move from technical role to management roles.</li>
+            <li>Those who aspire to be an Entrepreneur.</li>
+            <li>Those who are in the line of starting a start-up.</li>
         </ul>
     </div>
     
@@ -234,10 +234,10 @@
             <li>
                 <h4>On completion of Executive Master Program in Business Administration from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
                 <ul>
-                    <li>Promotion for freshers/team members to a mid-level leadership and managerial roles</li>
-                    <li>Elevation from mid-level roles to a senior level managerial, program manager, Group heads, Directors, Vice President and Senior Executive Levels</li>
-                    <li>Rapidly move into leadership roles</li>
-                    <li>Smoothly change over from technical role to managerial& leadership role with improvedexpertise</li>
+                    <li>Promotion for freshers/team members to a mid-level leadership and managerial roles.</li>
+                    <li>Elevation from mid-level roles to a senior level managerial, program manager, Group heads, Directors, Vice President and Senior Executive Levels.</li>
+                    <li>Rapidly move into leadership roles.</li>
+                    <li>Smoothly change over from technical role to managerial& leadership role with improvedexpertise.</li>
                     <li>Build Entrepreneurial mind-set and perform better in a start-up environment.</li>
                 </ul>
             </li>

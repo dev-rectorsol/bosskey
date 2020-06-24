@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -28,7 +28,11 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>For More information, please refer the individual prospectus given below: 1. online SIX SIGMA GREEN BELT PROFESSIONAL 2. SIX SIGMA BLACK BELT PROFESSIONAL 3. TOTAL QUALITY MANAGEMENT PROFESSIONAL 4. PROJECT MANAGEMENT CERTIFICATION by BIMT India.</p>
+                    <p>For More information, please refer the individual prospectus given below:</p>
+                        1. online SIX SIGMA GREEN BELT PROFESSIONAL <br>
+                        2. SIX SIGMA BLACK BELT PROFESSIONAL <br> 
+                        3. TOTAL QUALITY MANAGEMENT PROFESSIONAL <br> 
+                        4. PROJECT MANAGEMENT CERTIFICATION by BIMT India.
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>

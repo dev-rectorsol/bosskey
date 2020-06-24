@@ -62,7 +62,7 @@ theme.
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	color: #93a0a7;
+	color: #000;
 	line-height: 26px;
 
 }
@@ -6760,6 +6760,7 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav
     color: #000 !important;
     font-weight:500;
 }
+.sidebar .dropdown-menu>li>a { white-space: unset !important;}
 /* #phone {width: 169px;padding-left: 40px;} */
 .iti__country-list { background: #d81a1c;}
 .iti__arrow { border-top-color: #fff !important;}
@@ -6779,6 +6780,7 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav
 	  .custom-equery{display:none;}
 	  .close-btn { display:block; position: absolute; right: 10px; top: 14px; padding: 2px 9px; color: #fff !important;
  background: #d81a1c !important; z-index: 99; border-radius: 50%; width: 28px; height: 28px;}
+ .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover { color: #fff;}
 @media(max-width:1024px)
 {
 	/**/
@@ -6813,4 +6815,66 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav
     margin: 0px 5px 0px 0px;
 
 }
+}
+.spemargin {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.teachDetails{
+	margin:10px 0px;
+}
+.teachDetails span{
+	display: block;
+}
+.teachDetails img{
+	height: 75px;
+	width: 75px;
+	border-radius:5px;
+}
+.m-t-15{
+	margin-top: 15px;
+}
+.m-y-30{
+	margin:30px 0px;
+}
+.m-y-15{
+	margin:15px 0px;
+}
+.numeric-pagination a{
+	padding: 8px;
+	background-color: #fafbfd;
+}
+a.btn-active {
+    background-color: blue;
+    color: white;
+}
+.faultyProImg{
+	height: 150px;
+	width: 150px;
+	border-radius:5px;
+}
+.head{
+	background: #4a4386 none repeat scroll 0% 0%;
+	color: white;
+	padding: 5px 12px;
+}
+.studentGuid ol{
+		list-style-type: decimal;
+}
+.studentGuid ul{
+		list-style-type: circle;
+}
+.p-l-20{
+	padding-left: 20px;
+}
+.p-l-40{
+	padding-left: 40px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    padding: 15px 18px;
+    font-size: 14px;
+  
+}
+.header-top a {
+    color: #fff !important;
 }

@@ -23,14 +23,14 @@
                 <div class="col-md-9  left-block">
                     <h2>COURSE OVERVIEW</h2>
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> COURSE ACCESS DURATION&nbsp;</strong>– 2 Year</p>
-                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
+                    <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> – Gives in-depth information about what is covered, schedule, different phases involved and Process.</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course.</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Online Master Program in Business Administration achieve a rewarding career.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>Master Program in Business Administration with additional certificates offer concentrated study in areas directly applicable to many jobs and can add breadth and depth to your existing knowledge and skills. By applying new skills at your workplace, it may also provide opportunities for career advancement. Students who choose this certificate learn the use of technical tools to aid in understanding business systems, developing improvement strategies, and leading and managing the change process. The objective of this program is to help students pursue leadership positions in competitive business environments and is designed to accommodate the competing professional and personal demands of students.</p>
+                    <p>Master Program in Business Administration with additional certificates offers concentrated study in areas directly applicable to many jobs and can add breadth and depth to your existing knowledge and skills. By applying new skills at your workplace, it may also provide opportunities for career advancement. Students who choose this certificate learn the use of technical tools to aid in understanding business systems, developing improvement strategies, and leading and managing the change process. The objective of this program is to help students pursue leadership positions in competitive business environments and is designed to accommodate the competing professional and personal demands of students.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php include('layout/courselist.php'); ?>
@@ -206,7 +206,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>
+                <li>Exam Fees and GST 18% applicable.</li>
                 
             </ul>
             
@@ -221,9 +221,9 @@
             <li>
                 <h4>By completing Master Program in Business Administration with three certifications from BIMT Institute of Business Management, the students/professionals will:</h4>
                 <ul>
-                    <li>Acquire knowledge in principles and methodologies involved in business administration, project management and digital marketing</li>
-                    <li>Develop global business network team which in turn used for in personal, professional as well for business growth</li>
-                    <li>Master the approaches in enterprise solutions and leadership, business process management, business analysis, quantitative-based analysis and decision making to thrive in this dynamic business environment</li>
+                    <li>Acquire knowledge in principles and methodologies involved in business administration, project management and digital marketing.</li>
+                    <li>Develop global business network team which in turn used for in personal, professional as well for business growth.</li>
+                    <li>Master the approaches in enterprise solutions and leadership, business process management, business analysis, quantitative-based analysis and decision making to thrive in this dynamic business environment.</li>
                     <li>Master the skills in maintaining Human Resource Planning, Business Communication, Organisation behaviour,Business strategy etc.,</li>
                 </ul>
             </li>
@@ -236,13 +236,13 @@
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>Degree/Diploma graduates with minimum 1 year of work experience</li>
-            <li>Project Managers/Team Leaders</li>
-            <li>Marketing managers/Digital marketing managers, Human resources managers, Financial analyst</li>
-            <li>Inventors and entrepreneurs looking out for start-up environment</li>
-            <li>Aspiring candidates who want to acquire advanced management skills and principles</li>
-            <li>Team leaders / Operational Managers handling to build a strong and zealous team</li>
-            <li>Those who want to acquire certification in Six Sigma, Project Management, and Digital Marketing along with Master program in Business Administration</li>
+            <li>Degree/Diploma graduates with minimum 1 year of work experience.</li>
+            <li>Project Managers/Team Leaders.</li>
+            <li>Marketing managers/Digital marketing managers, Human resources managers, Financial analyst.</li>
+            <li>Inventors and entrepreneurs looking out for start-up environment.</li>
+            <li>Aspiring candidates who want to acquire advanced management skills and principles.</li>
+            <li>Team leaders / Operational Managers handling to build a strong and zealous team.</li>
+            <li>Those who want to acquire certification in Six Sigma, Project Management, and Digital Marketing along with Master program in Business Administration.</li>
         </ul>
     </div>
     
@@ -256,12 +256,12 @@
             <li>
                 <h4>Getting certification from Master Program in Business Administration + 3 certificates from BIMT Institute of Business Management, the students achieve a leap in their career through BIMT India such as:</h4>
                 <ul>
-                    <li>Greater job opportunities and attractive remuneration</li>
-                    <li>Potentially develop and operate businesses challenges and become young entrepreneurs with a strong conviction and achieve desirable results</li>
-                    <li>Progression to ethical leadership and motivational management, become effective for ranking business leaders</li>
-                    <li>Ability to market oneself well by appropriately highlighting the key achievements</li>
-                    <li>Adapt to career transmission from technical role to operational role with enhanced skills by BIMT India</li>
-                    <li>Achieve quick, solid, systematic and better career growth resulting in enhanced financial success</li>
+                    <li>Greater job opportunities and attractive remuneration.</li>
+                    <li>Potentially develop and operate businesses challenges and become young entrepreneurs with a strong conviction and achieve desirable results.</li>
+                    <li>Progression to ethical leadership and motivational management, become effective for ranking business leaders.</li>
+                    <li>Ability to market oneself well by appropriately highlighting the key achievements.</li>
+                    <li>Adapt to career transmission from technical role to operational role with enhanced skills by BIMT India.</li>
+                    <li>Achieve quick, solid, systematic and better career growth resulting in enhanced financial success.</li>
                 </ul>
             </li>
         </ul>

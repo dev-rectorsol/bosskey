@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -26,14 +26,14 @@ Start Banner -->
                     <p><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> PROGRAM PLAN</strong> -  Gives in-depth information about what is covered, schedule, different phases involved and Process</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> KEY TAKE AWAY&nbsp;</strong> – Benefits of the course</p>
                     <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> WHO SHOULD ATTEND</strong> – Talks about the eligibility criteria, best suited audience, etc.,</p>
-                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Program in Business Analytics achieve a rewarding career by BIMT Institute of Business Management</p>
+                    <p ><strong><i class="fa fa-arrow-right" aria-hidden="true"></i> POTENTIAL CAREER GROWTH –&nbsp;</strong>On completion of Executive Program in Business Analytics achieve a rewarding career by BIMT Institute of Business Management.</p>
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
                     <p>The Executive Program in Business Analytics from BIMT Institute is intended for participants who want to build their careers in Business Analytics.</p>
-                    <p>The Program is carefully crafted by distinguished academic and industry professionals to help participants develop a though conceptual understanding of the essentials and advanced topics in Business Analytics.</p>
-                    <p>The Program intends for participants to apply the above analytics skills-sets to solve real-world businessproblems.</p>
-                    <p>Executive Program in Business Analytics program intends participants to handle a real-world business problem through various tools and methodologies discussed in thecurriculum.</p>
+                    <p>The Program is carefully crafted by distinguished academics and industry professionals to help participants develop a though conceptual understanding of the essentials and advanced topics in Business Analytics.</p>
+                    <p>The Program intends for participants to apply the above analytics skills-sets to solve real-world business problems.</p>
+                    <p>Executive Program in Business Analytics program intends participants to handle a real-world business problem through various tools and methodologies discussed in the curriculum.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -190,9 +190,9 @@ Start Banner -->
 <div class="row">
     <div class="col-sm-12">
         <ul class="content">
-            <li>This course is designed for the professionals, who wish to make a career in business analytics and have some knowledge of IT. There are no pre-requisites for this course.</li>
-            <li>Working Professionals to enhance their Resume</li>
-            <li>Freshers may also apply</li>
+            <li>This course is designed for professionals, who wish to make a career in business analytics and have some knowledge of IT. There are no pre-requisites for this course.</li>
+            <li>Working Professionals to enhance their Resume.</li>
+            <li>Freshers may also apply.</li>
             <li>To gain an understanding of how managers use business analytics to formulate and solve business problems and to support managerial decision making.</li>
         </ul>
     </div>
@@ -208,14 +208,14 @@ Start Banner -->
                 <h4>On completion of Executive Program in Business Analytics from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
                 <ul>
                     <li>Expose participants to state of  the art tools and techniques of analytics.</li>
-                    <li>Learn how to apply analytics across industries such as marketing, finance andoperations</li>
+                    <li>Learn how to apply analytics across industries such as marketing, finance, and operations.</li>
                     <li>A solid foundation in topics needed for building capabilities to take on the new form of competition.</li>
                     <li>Getting these certification courses can increase your chances of getting hired in some of the best companies.</li>
                     <li>Some of the companies known for using cutting edge Analytics (in India)are:</li>
                     <ul>
-                        <li>Technology leaders: Google, Facebook, Linkedin</li>
+                        <li>Technology leaders: Google, Facebook, Linkedin.</li>
                         <li>Banking, Financial Services and Insurance(BFSI):</li>
-                        <li>Capital One, American Express, ICICI,HDFC</li>
+                        <li>Capital One, American Express, ICICI,HDFC.</li>
                     </ul>
                 </ul>
             </li>

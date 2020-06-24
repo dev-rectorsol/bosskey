@@ -1,4 +1,4 @@
-Start Banner -->
+<!-- Start Banner -->
 <div class="inner-banner">
     <div class="container">
         <div class="row">
@@ -28,7 +28,7 @@ Start Banner -->
                     <div class="cert-head">
                         <h3>About Course</h3>
                     </div>
-                    <p>This Combination of online Program gives candidates the Skills, Knowledge and job in achieving top leadership of Business Improvement Projects. Curriculum covered is same as they are listed in the body of knowledge specified  Distance for the ASQ online Certified Six Sigma Black Belt Examination. The Six Sigma Green Belt Professional + Six Sigma Black Belt by BIMT India enhance skills in the improvement of projects and create a result oriented improvement culture.</p>
+                    <p>This Combination of online Program gives candidates the Skills, Knowledge, and job in achieving top leadership of Business Improvement Projects. The curriculum covered is the same as they are listed in the body of knowledge specified  Distance for the ASQ online Certified Six Sigma Black Belt Examination. The Six Sigma Green Belt Professional + Six Sigma Black Belt by BIMT India enhance skills in the improvement of projects and create a result-oriented improvement culture.</p>
                 </div>
                 <div class="col-md-3 ">
                     <?php echo $courselist;?>
@@ -214,7 +214,7 @@ Start Banner -->
                             <li>
                                 <h4>Part V Measure</h4>
                                 <ul>
-                                    <li>Process Characterstics</li>
+                                    <li>Process Characteristics</li>
                                     <li>Data Collection</li>
                                     <li>Measurement systems</li>
                                     <li>Basic Statistics</li>
