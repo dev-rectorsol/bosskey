@@ -60,19 +60,19 @@
          });
     });
 
-    $("#menu").on('change', function(){
-      var menu_id = $('#menu').val();
-      $.ajax({
-        type: "POST",
-        url: "<?php echo base_url('admin/menu/getCategory') ?>",
-        data: {menu_id:menu_id},
-        datatype: 'json',
-        success: function(data){
-          //console.log(data); stop();
-           $("#category").html(JSON.parse(data));
-        }
-      });
-    });
+    // $("#menu").on('change', function(){
+    //   var menu_id = $('#menu').val();
+    //   $.ajax({
+    //     type: "POST",
+    //     url: "<?php echo base_url('admin/menu/getCategory') ?>",
+    //     data: {menu_id:menu_id},
+    //     datatype: 'json',
+    //     success: function(data){
+    //       //console.log(data); stop();
+    //        $("#category").html(JSON.parse(data));
+    //     }
+    //   });
+    // });
 
     $("#category").on('change', function(){
       var category_id = $('#category').val();

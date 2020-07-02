@@ -36,11 +36,10 @@
         </a>
         <div class="collapse" id="ui-menu">
           <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/createMenu')?>">Create Menu</a></li>
             <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/category')?>">Category</a></li>
-            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/sub_category/')?>">Sub Category</a></li>
-            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Course Details</a></li>
-            <!-- <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Course List</a></li> -->
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/sub_category/')?>">Courses</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Courses Details</a></li>
+
           </ul>
         </div>
       </li>

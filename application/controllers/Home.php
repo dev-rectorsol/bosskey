@@ -7,6 +7,7 @@ class Home extends CI_Controller {
 			parent::__construct();
 		 $this->load->model('Common_model');
 		 $this->load->model('login_model');
+		 $this->load->model('menu_model');
 	}
 
 	/**
@@ -24,24 +25,30 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index(){
-		$data = array();
-		$data['page'] = 'HOME';
-	    $data['country'] = $this->Common_model->select('country');
-// 		$data['phone'] = $this->Common_model->get_phonecode($d);
-		$data['state'] = $this->Common_model->get_states_by_id();
-		$data['main_content'] = $this->load->view('web/home', $data, TRUE);
-		$this->load->view('web/index', $data);
-  }
+	 public function index(){
+	 	$data = array();
+	 	$data['page'] = 'HOME';
+	 	$data['country'] = $this->Common_model->select('country');
+	 	$data['phone'] = $this->Common_model->get_phonecode();
+	 	$data['state'] = $this->Common_model->get_states_by_id();
+	 	$data['menus'] = $this->menu_model->menus();
+	 	// $data = array('menus' => $menus);
+	 	// echo "<pre>";
+	 	// echo print_r($data['menus']);exit;
+	 	$data['main_content'] = $this->load->view('web/home', $data, TRUE);
+	 	$this->load->view('web/index', $data);
+	 }
   public function about(){
 	$data = array();
 	$data['page'] = 'ABOUT';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function coursedetail(){
 	$data = array();
 	$data['page'] = 'COURSEDETAILS';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/coursedetail', $data, TRUE);
 	$this->load->view('web/index', $data);
   }
@@ -50,6 +57,7 @@ public function coursedetail(){
 	$data = array();
 	$data['page'] = 'ONLINEAPPLY';
 	 $data['country'] = $this->Common_model->select('country');
+	 $data['menus'] = $this->menu_model->menus();
 // 		$data['phone'] = $this->Common_model->get_phonecode($d);
 		$data['state'] = $this->Common_model->get_states_by_id();
 	$data['main_content'] = $this->load->view('web/onlineapply', $data, TRUE);
@@ -59,12 +67,14 @@ public function coursedetail(){
   public function term(){
 	$data = array();
 	$data['page'] = 'TERM';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/term', $data, TRUE);
 	$this->load->view('web/index', $data);
   }
   public function privacy(){
 	$data = array();
 	$data['page'] = 'PRIVACY';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/privacy', $data, TRUE);
 	$this->load->view('web/index', $data);
   }
@@ -72,16 +82,17 @@ public function coursedetail(){
   public function faq(){
 	$data = array();
 	$data['page'] = 'FAQ';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/faq', $data, TRUE);
 	$this->load->view('web/index', $data);
   }
   /*Our Courses*/
-  public function businessadministration(){
-	$data = array();
-	$data['page'] = 'BusinessAdministration';
-	$data['main_content'] = $this->load->view('web/masterprograminbusinessadministration11months', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
+  // public function businessadministration(){
+	// $data = array();
+	// $data['page'] = 'BusinessAdministration';
+	// $data['main_content'] = $this->load->view('web/masterprograminbusinessadministration11months', $data, TRUE);
+	// $this->load->view('web/index', $data);
+  // }
 
   public function masterprogramhumanresourcemanagement(){
 	$data = array();
@@ -859,6 +870,7 @@ public function coursedetail(){
 	public function studentFacility(){
 		$data = array();
 		$data['page'] = 'Apply & Pay Online';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/studentFacility', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -866,6 +878,7 @@ public function coursedetail(){
 	public function aboutExam(){
 		$data = array();
 		$data['page'] = 'About Exam';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/aboutExam', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -873,6 +886,7 @@ public function coursedetail(){
 	public function liveLectureCalendar(){
 		$data = array();
 		$data['page'] = 'Live Lecture Calendar';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/liveLectureCalendar', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -880,6 +894,7 @@ public function coursedetail(){
 	public function studentGuidelines(){
 		$data = array();
 		$data['page'] = 'Student Guidelines';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/studentGuidelines', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -887,6 +902,7 @@ public function coursedetail(){
 	public function studentFAQ(){
 		$data = array();
 		$data['page'] = 'Student FAQ’s';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/studentFAQ', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -894,6 +910,7 @@ public function coursedetail(){
 	public function specimenCertificate(){
 		$data = array();
 		$data['page'] = 'Specimen Certificate';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/specimenCertificate', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -901,6 +918,7 @@ public function coursedetail(){
 	public function sampleExamPaper(){
 		$data = array();
 		$data['page'] = 'Sample Exam Paper';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/sampleExamPaper', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -912,6 +930,7 @@ public function coursedetail(){
 	public function studentPlacement(){
 		$data = array();
 		$data['page'] = 'Student Placement';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentPlacement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -919,6 +938,7 @@ public function coursedetail(){
 	public function eLearning(){
 		$data = array();
 		$data['page'] = 'BIMT Apps';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/eLearning', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -927,6 +947,7 @@ public function coursedetail(){
 	public function payExamFee(){
 		$data = array();
 		$data['page'] = 'Pay Examination Fees';
+		$data['menus'] = $this->menu_model->menus();
 		$data['country'] = $this->Common_model->get_all_country();
 		$data['main_content'] = $this->load->view('web/payExamFee', $data, TRUE);
 		$this->load->view('web/index', $data);
@@ -935,6 +956,7 @@ public function coursedetail(){
 	public function blog(){
 		$data = array();
 		$data['page'] = 'Blog';
+		$data['menus'] = $this->menu_model->menus();
 		$data['country'] = $this->Common_model->get_all_country();
 		$data['main_content'] = $this->load->view('web/blog', $data, TRUE);
 		$this->load->view('web/index', $data);
@@ -948,6 +970,7 @@ public function coursedetail(){
 public function contact(){
 	$data = array();
 	$data['page'] = 'CONTACT';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/contact', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
@@ -1082,13 +1105,12 @@ public function submit_contact()
 							 $this->session->set_flashdata("msg","Form Apply Successfully");
 							 redirect(base_url('onlineapply'));
 							//echo $user_id;exit;
-
-
 						}
 
 						$data['page_title'] = 'Bank Account Detail';
 						redirect(base_url('onlineapply'));
 			}
+
 
 
 
@@ -1141,50 +1163,116 @@ public function submit_contact()
 public function vision(){
 	$data = array();
 	$data['page'] = 'Vision, Mission & Values';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/vision', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function whytrustbimt(){
 	$data = array();
 	$data['page'] = 'Why Trust BIMT';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/bimt', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function theteam(){
 	$data = array();
 	$data['page'] = 'The Team';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/team', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function members(){
 	$data = array();
 	$data['page'] = 'Membership & Approvals';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/Membership', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function collaboration(){
 	$data = array();
 	$data['page'] = 'Collaboration with IBMT insititue';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/collaboration', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function ibmtinstitue(){
 	$data = array();
 	$data['page'] = ' IBMT Institute';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/IBMTinstitue', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function ibmtinstituecredentials(){
 	$data = array();
 	$data['page'] = 'IBMT Institue Credentials';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/IBMTinstituecredentials', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
 public function ourAlumni(){
 	$data = array();
 	$data['page'] = 'Our Alumni';
+	$data['menus'] = $this->menu_model->menus();
 	$data['main_content'] = $this->load->view('web/about/ouralumni', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
+/*Our Courses*/
+public function businessadministration($id){
+$data = array();
+$data['page'] = 'BusinessAdministration';
+$menus = $this->menu_model->menus();
+$data = array('menus' => $menus);
+$data['subcategory_value'] = $this->menu_model->get_sub_category();
+$data['course'] = $this->menu_model->get_coures($id,'subcategory_id');
+if($data['course']){
+	$data['main_content'] = $this->load->view('web/course_page', $data, TRUE);
+}else{
+	$data['main_content'] = $this->load->view('web/error', $data, TRUE);
+}
+//echo print_r($data['course']);exit;
+$this->load->view('web/index', $data);
+}
+public function categoryDetails($id){
+$data = array();
+$data['page'] = 'Category Details';
+$menus = $this->menu_model->menus();
+$data = array('menus' => $menus);
+$data['category_value'] = $this->menu_model->get_category();
+$data['course'] = $this->menu_model->get_coures($id,'category_id');
+if($data['course']){
+	$data['main_content'] = $this->load->view('web/course_page', $data, TRUE);
+}else{
+	$data['main_content'] = $this->load->view('web/error', $data, TRUE);
+}
+//echo print_r($data['course']);exit;
+$this->load->view('web/index', $data);
+}
+
+
+public function submit_query()
+{
+	 // echo '<pre>';
+	 // echo print_r($_POST);exit;
+
+	 if ($_POST) {
+		 $data = array(
+					 'email' => $_POST['email'],
+					 'phone	' => $_POST['phone'],
+					 'query	' => $_POST['query']
+			 );
+			//echo print_r($data);exit;
+			 $data = $this->security->xss_clean($data);
+			 //-- check duplicate email
+				$this->Common_model->insert($data, 'query');
+				$this->session->set_flashdata("msg","Form Apply Successfully");
+				redirect(base_url('home'));
+			 //echo $user_id;exit;
+		 }
+
+		 $data['page_title'] = 'Home';
+		 redirect(base_url('home'));
+}
+
+
 
 }

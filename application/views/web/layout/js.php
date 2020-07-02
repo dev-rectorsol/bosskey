@@ -85,6 +85,12 @@ $("#country").on('change', function(){
           });
         });
 
+
+
+            $(document).ready(function(){
+                $("#form").modal('show');
+            });
+
 </script>
   <script language="javascript">
 	populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
@@ -102,7 +108,7 @@ $(document).ready(function(){
   $("#closeenquery").click(function(){
     $("#enquery").hide();
   });
-  
+
 });
 </script>
 </body>

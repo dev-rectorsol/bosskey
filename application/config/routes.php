@@ -218,13 +218,13 @@ $route['blog'] = 'home/blog';
 $route['studentPlacement'] = 'home/studentPlacement';
 
 $route['contact'] = 'home/contact';
-
+$route['categoryDetails'] = 'home/categoryDetails';
 // write by arti
   $route['vision'] = 'home/vision';
   $route['whytrustbimt'] = 'home/whytrustbimt';
   $route['theteam'] = 'home/theteam';
   $route['members'] = 'home/members';
-  $route['collaboration'] = 'home/collaboration';  
+  $route['collaboration'] = 'home/collaboration';
   $route['ibmtinstitue'] = 'home/ibmtinstitue';
   $route['ibmtinstituecredentials'] = 'home/ibmtinstituecredentials';
   $route['ourAlumni'] = 'home/ourAlumni';

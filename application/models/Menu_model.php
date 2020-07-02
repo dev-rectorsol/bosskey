@@ -48,8 +48,8 @@ class Menu_model extends CI_Model {
         return $query;
     }
     public function get_category_data(){
-        $this->db->select('id,name');
-        $this->db->from('menu');
+        $this->db->select('id,category');
+        $this->db->from('category');
         $query = $this->db->get();
         $query = $query->result_array();
         return $query;
@@ -94,10 +94,10 @@ class Menu_model extends CI_Model {
                return $query;
              }
 
-             function get_coures($id){
+             function get_coures($id,$type){
                   $this->db->select('*');
                   $this->db->from('course_details');
-                  $this->db->where('sub_cat_id',$id);
+                  $this->db->where($type,$id);
                   $query = $this->db->get();
                 //  echo $this->db->last_query();exit;
                   $query = $query->row();
@@ -108,36 +108,37 @@ class Menu_model extends CI_Model {
                //echo $id;exit;
                 $this->db->select('*');
                 $this->db->from('subcategory');
-                $this->db->where('cat_id',$id);
+                $this->db->where('category_id',$id);
 
                 $query=  $this->db->get();
                   //echo $this->db->last_query($query);exit;
                   $query = $query->result_array();
                   return $query;
                 }
+                function menus() {
+                        $this->db->select("*");
+                        $this->db->from("category");
+                        $q = $this->db->get();
+                        $final = array();
+                        if ($q->num_rows() > 0) {
+                          $menu = $q->result();
+                            foreach ($menu as $row) {
+                                $this->db->select("*");
+                                $this->db->from("subcategory");
+                                $this->db->where("category_id", $row->id);
+                                $q = $this->db->get();
+                                if ($q->num_rows() > 0) {
+                                    $row->children = $q->result();
+                              }
+                                array_push($final, $row);
+                            }
+                        }
 
-//     public function menus() {
-//     $this->db->select("*");
-//     $this->db->from("category");
-//     $q = $this->db->get();
-//     $final = array();
-//     if ($q->num_rows() > 0) {
-//         foreach ($q->result() as $row) {
-//
-//             $this->db->select("*");
-//             $this->db->from("subcategory");
-//             $this->db->where("category_id", $row->id);
-//             $q = $this->db->get();
-//             if ($q->num_rows() > 0) {
-//                 $row->children = $q->result();
-//                  //echo "<pre>";
-//                  ///echo print_r($row);exit;
-//             }
-//             array_push($final, $row);
-//         }
-//     }
-//     return $final;
-// }
+                        return $final;
+                        // echo "<pre>";
+                        // echo print_r($final);exit;
+                    }
+
 // function menus() {
 //         $this->db->select("*");
 //         $this->db->from("menu");
@@ -245,13 +246,13 @@ class Menu_model extends CI_Model {
         return $query;
     }
 
-    function menus(){
-      $this->db->select('*');
-      $this->db->from('menu');
-      $this->db->where('parent_id','0');
-      $query = $this->db->get();
-      return $query->result_array();
-    }
+    // function menus(){
+    //   $this->db->select('*');
+    //   $this->db->from('menu');
+    //   $this->db->where('parent_id','0');
+    //   $query = $this->db->get();
+    //   return $query->result_array();
+    // }
 
 
 }

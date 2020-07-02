@@ -103,7 +103,7 @@ Enquire now
                     <div class="container">
                         <div class="content animated fadeInLeft">
                             <h1 class="animated fadeInLeft">Online MBA</h1>
-                            
+
                             <a href="#" class="btn animated fadeInLeft">Know More <span class="icon-more-icon"></span></a> </div>
                     </div>
                 </div>
@@ -223,26 +223,26 @@ Enquire now
                         <figure> <img src="<?php echo base_url()?>assets/images/teacher/Bryan_Tyler.jpg" width="123" height="124" alt=""> </figure>
                         <h3>Bryan Tyler</h3>
                         <span class="designation"><strong>Qualification:</strong> Ph.D (H.R), MBA (H.R)</span>
-                       
+
 
                     </li>
                     <li class="col-xs-6 col-sm-3">
                         <figure> <img src="<?php echo base_url()?>assets/images/teacher/Mike_dikson.jpg" width="123" height="124" alt=""> </figure>
                         <h3>Mike Dikson</h3>
                         <span class="designation"><strong>Qualification:</strong> MBA(Digital Marketing)</span>
-                        
+
                     </li>
                     <li class="col-xs-6 col-sm-3">
                         <figure> <img src="<?php echo base_url()?>assets/images/teacher/Mukesh_Saxena.png" width="123" height="124" alt=""> </figure>
                         <h3>Mukesh Saxena</h3>
                         <span class="designation"><strong>Qualification:</strong> Ph.D (IT)</span>
-                        
+
                     </li>
                     <li class="col-xs-6 col-sm-3">
                         <figure> <img src="<?php echo base_url()?>assets/images/teacher/Xiang_Hou.jpeg" width="123" height="124" alt=""> </figure>
                         <h3>Xiang Hou</h3>
                         <span class="designation"><strong>Qualification:</strong> Ph.D,MBA (Finance)</span>
-                        
+
 
                     </li>
                 </ul>
@@ -274,3 +274,80 @@ Enquire now
             </div>
         </section>
         <!-- End Testimonial -->
+
+        <style>
+        .modal-content{
+          width:600px;
+          height: 500px;
+          background-image: url(<?php echo base_url('assets/images/bc.jpg')?>);
+          background: rgba(48, 55, 58, 0.9);
+          border:2px solid #4ce059;
+        }
+        .content_body
+        {
+          margin-left:  50px;
+          margin-right:   50px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+        .blinking{
+    animation:blinkingText 1.0s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #fff;    }
+}
+        </style>
+
+
+
+
+
+
+        <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <?php $msg = $this->session->flashdata('msg'); ?>
+              <?php if (isset($msg)): ?>
+              <div class="alert alert-success delete_msg pull" style="width: 100%"> <i class="fa fa-times"></i>
+                  <?php echo $msg; ?> &nbsp;
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true"></span> </button>
+              </div>
+              <?php endif ?>
+                <div class="content_body">
+                  <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="exampleModalLabel" style="text-align:center;font-size:40px;color:#82c15f"><i class="fa fa-address-card-o" aria-hidden="true"></i></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="">
+                    <h5 class="modal-title blinking" id="exampleModalLabel" style="color:#ffff;text-align:center">Get Certified ! Get Promotions !</h3><br>
+                    <h5 class="modal-title" id="exampleModalLabel" style="color:#ae7342;font-weight:bold;text-align:center;font-family:cursive;;">Our Expert Counselors will help you choose the course!</h5>
+                  </div>
+                    <form method="post" action="<?php echo base_url('home/submit_query') ?>">
+                      <div class="modal-body">
+                        <div class="form-group">
+
+                          <input type="email" class="form-control" name="email"  id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                        </div>
+                        <div class="form-group">
+
+                          <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter Phone Nuber">
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" name="query" row="10" cols="5"> Any Query  </textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer border-top-0 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+            </div>
+          </div>
+        </div>
