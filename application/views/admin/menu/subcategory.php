@@ -29,13 +29,13 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Add Sub Category</label>
+                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Add Courses</label>
                         <div class="col-sm-9">
-                          <!-- <input type="text" name="category_name"  class="form-control" placeholder="Category Name"> -->
-                          <select class="form-control" id="subcategory" name="category_name">
+                           <input type="text" name="category_name"  class="form-control" placeholder="Courses Name">
+                          <!-- <select class="form-control" id="subcategory" name="category_name">
                             <option> --- Select Category --- </option>
 
-                          </select>
+                          </select> -->
                         </div>
                       </div>
                       <!-- <div class="form-group row">

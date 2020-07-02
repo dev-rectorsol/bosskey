@@ -29,19 +29,16 @@
                       <div class="form-group row">
                         <label for="exampleInputUsername2" class="col-sm-2 col-form-label">Add Sub Category</label>
                         <div class="col-sm-10">
-                          <!-- <input type="text" name="category_name"  class="form-control" placeholder="Category Name"> -->
+                          <!-- <input type="text" name="subcategory_id"  class="form-control" placeholder="Category Name"> -->
                           <select class="form-control" id="subcategory" name="subcategory_id">
                             <option> --- Select Category --- </option>
 
                           </select>
                         </div>
                       </div>
-
-
                     <div class="form-group">
                       <h1>Course overview </h1>
                       <textarea id="froala-editor" name="courseoverview">
-
                       </textarea>
 
 

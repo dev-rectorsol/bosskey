@@ -115,7 +115,7 @@ class Menu extends CI_Controller {
                          $data = $this->security->xss_clean($data);
                          //-- check duplicate email
                           $this->menu_model->insert($data, 'subcategory');
-                          $this->session->set_flashdata("msg"," Add sub Category  Successfully");
+                          $this->session->set_flashdata("msg"," Add  Courses  Successfully");
                           redirect(base_url('admin/menu/sub_category'));
                          //echo $user_id;exit;
 
