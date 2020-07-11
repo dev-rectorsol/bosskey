@@ -8,14 +8,14 @@
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
-                
+
                 <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                 </a> <a href="#" class="download-prospects brochure"> <span class="icon-brochure-icon"></span> <span class="small">Download:</span>Course Brochure</a> </div>
             </div>
         </div>
     </div>
     <!-- End Banner -->
-    
+
     <!-- Start Course Description -->
     <section class="about inner padding-lg">
         <div class="container">
@@ -34,66 +34,62 @@
                     <p>The program will be hands-on with an introduction to software such as XL-Miner, SAS Enterprise Miner, SPSS, R, @Risk, etc. The program is suited for working professionals and fresher who would like to have a hands-on feel on working with data and making sense of it.</p>
                     <p>The objective of the Executive Program in Data Science is to introduce participants to the tools and techniques used for handling, managing, analyzing and interpreting data.</p>
                 </div>
-                <div class="col-md-3 ">
-                     <?php echo $courselist;?>
-                </div>
+                <div class="col-md-3 "id="courseList"></div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="course-detail clearfix">
                         <div class="duration clearfix">
-                            <div class="icon"><span class="icon-duration-icon"></span></div>
+                          <div class="icon"><span class="fa fa-clock-o"></span></div>
                             <div class="detail"> <span>Duration</span> 11 Months </div>
                         </div>
                         <div class="duration eligible clearfix">
-                            <div class="icon"><span class="icon-eligibility-icon"></span></div>
+                          <div class="icon"><span class="fa fa-list"></span></div>
                             <div class="detail"> <span>ELIGIBILITY:</span> Fresh Graduates and Experienced Working Professional.</div>
                         </div>
                         <div class="duration fee clearfix">
                             <div class="detail"> <span>COURSE FEE:</span> Rs.25,000 </div>
                         </div>
-                        <a href="<?php echo base_url('onlineapply') ?>" class="btn">apply now <span class="icon-more-icon"></span></a> </div>
+                        <a  href="" id="apply" class="btn">apply now <span class="fa fa-caret-square-o-right "></span></a> </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Course Description -->
-        <!-- Start Course Details Tab -->
         <section class="details-tab">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
                             <ul class="nav nav-tabs course-tab" id="myTabs" role="tablist">
-                                <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="icon-curriculam-icon"></span>
+                              <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="fa fa-book"></span>
                                 <div class="block">COURSE</div>
-                            CURRICULUM </a> </li>
-                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="icon-schedule-icon"></span>
-                            <div class="block">FEES</div>
-                        DETAILS</a> </li>
-                        <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="icon-semester-icon"></span>
-                        <div class="block">Key TAKE AWAY</div>
-                    </a> </li>
-                    <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="icon-parents-icon"></span>
-                    <div class="block">WHO </div>
-                SHOULD ATTEND </a> </li>
-                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="icon-student-icon"></span>
-                <div class="block">POTENTIAL</div>
-            CAREER GROWTH</a> </li>
-            
+                                CURRICULUM </a> </li>
+                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="fa fa-calendar"></span>
+                                <div class="block">FEES</div>
+                                 DETAILS</a> </li>
+                            <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="fa fa-graduation-cap"></span>
+                                <div class="block">Key TAKE AWAY</div>
+                                 </a> </li>
+                            <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="fa fa-users"></span>
+                                <div class="block">WHO </div>
+                                SHOULD ATTEND </a> </li>
+
+                                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="fa fa-user-circle"></span>
+                                <div class="block">POTENTIAL</div>
+                                CAREER GROWTH</a> </li>
+
+
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade semester active in" role="tabpanel" id="curriculam" aria-labelledby="curriculam-tab">
-                
-                
+
+
                 <div class="row">
-                    <!-- <div class="col-sm-12 txt-block">
-                        <h4>Master Program in Supply Chain Management from BIMT Institute of Business Management comprises of 8  core subjects taught under 2 semesters.</h4>
-                    </div> -->
-                    <div class="col-sm-6">                        
+
+                    <div class="col-sm-6">
                         <ul class="content">
-                            <li>                                
-                                <h4>Semester I</h4>                                
+                            <li>
+                                <h4>Semester I</h4>
                                 <ul>
                                     <li>Data Science</li>
                                     <li>Data Analysis  Using SQL and Excel</li>
@@ -103,10 +99,10 @@
                             </li>
                        </ul>
                     </div>
-                    <div class="col-sm-6">                        
+                    <div class="col-sm-6">
                         <ul class="content">
-                            <li>                                
-                                <h4>Semester II</h4>                                
+                            <li>
+                                <h4>Semester II</h4>
                                 <ul>
                                     <li>Python</li>
                                     <li>Business Analytics Using SAS</li>
@@ -126,14 +122,14 @@
                                 <th>FEES</th>
                                 <th>AMOUNT</th>
                                 <th>TOTAL FEES</th>
-                                
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td><div class="table-col1"> One Time Payment</div></td>
                                 <td><div class="fee-amt"> Rs.25,000</div></td>
-                                <td><div class="fee-amt"> Rs.25,000</div></td>   
+                                <td><div class="fee-amt"> Rs.25,000</div></td>
                             </tr>
                             <tr>
                                 <td><div class="table-col1"> Installment-I </div></td>
@@ -161,7 +157,7 @@
             <h4>Payment Instruction</h4>
             <ul>
                 <li>Fees need to be paid in lump sum / first Installment via Cheque or online payment in favor of "BIMT Institute of Business Management".</li>
-                <li>Exam Fees and GST 18% applicable </li>     
+                <li>Exam Fees and GST 18% applicable </li>
             </ul>
         </div>
     </div>
@@ -169,21 +165,7 @@
 </div>
 <div class="tab-pane fade" role="tabpanel" id="semester" aria-labelledby="semester-tab">
 <div class="row">
-    <!-- <div class="col-sm-12">
-        <ul class="content">
-            <li>
-                <h4>By completing Industrial Accountant from BIMT Institute of Business Management, the students/professionals of BIMT India will:</h4>
-                <ul>
-                    <li>They can make their career as chartered accountant; they should work in many disciplines such as financial reporting, taxation, corporate finance etc.</li>
-                    <li>After passing it, applicants can also start their own accounting or auditing firm</li>
-                    <li>This increased importance not only ensures a bright career today; tomorrow appears to be even brighter for those who want to pursue accounting as a career.</li>
-                    <li>Take challenging roles in Accounting, Taxation, Auditing and Compliance</li>
-                    <li>Work independently on return filing, taxation, statutory compliance</li>
-                </ul>
-            </li>
-        </ul>
-    </div> -->
-    
+
 </div>
 </div>
 <div class="tab-pane semester fade" role="tabpanel" id="teachers" aria-labelledby="teachers-tab">
@@ -192,13 +174,13 @@
         <ul class="content">
             <li>Working professionals with a minimum of 3 years of experience who need to use quantitative techniques and data analytics tools to arrive at most effective decisions will find this program stimulating and challenging.</li>
             <li>Working Professionals to enhance their Resume.</li>
-            <li>Professionals interested in learning the different tools and techniques of data science and successful implementation of data science in the organization will find this program useful for their professional excellence.</li>   
+            <li>Professionals interested in learning the different tools and techniques of data science and successful implementation of data science in the organization will find this program useful for their professional excellence.</li>
         </ul>
     </div>
-    
+
 </div>
 </div>
-<!-- add new contant-->
+
 <div class="tab-pane fade" role="tabpanel" id="career" aria-labelledby="career-tab">
 <div class="row">
     <div class="col-sm-12">
@@ -208,10 +190,10 @@
             </li>
         </ul>
     </div>
-    
+
 </div>
 </div>
-<!-- add new contant-->
+
 </div>
 </div>
 </div>

@@ -37,8 +37,8 @@
         <div class="collapse" id="ui-menu">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/category')?>">Category</a></li>
-            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/sub_category/')?>">Courses</a></li>
-            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/add_course/')?>"> Courses Details</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/course/')?>">Courses</a></li>
+            <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/menu/course_details/')?>"> Courses Details</a></li>
 
           </ul>
         </div>
@@ -63,6 +63,12 @@
           <!-- <li class="nav-item"> <a class="nav-link" href="<?php echo base_url('admin/setting/toll')?>">Toll Free Number</a></li> -->
         </ul>
       </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="<?php echo base_url('admin/Auth/logout')?>">
+        <span class="icon-bg"><i class="mdi mdi-logout menu-icon"></i></span>
+        <span class="menu-title">Logout</span>
+      </a>
     </li>
     <!-- <li class="nav-item">
       <a class="nav-link" href="pages/icons/mdi.html">

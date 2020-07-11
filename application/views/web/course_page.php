@@ -32,10 +32,27 @@
 
                 <!-- Start Course Description -->
 
+                        <div class="leftsidebar">
                           <?php echo $course->courseoverview;?>
-                        
+                        </div>
+                          <div class="col-md-siderbar" id="hidden-template" style="display:none;">
+                            <?php include('courselist.php'); ?>
+                        </div>
+
+                        <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
+                        <script>
+                        $(document).ready(function(){
+                          var template = $('#hidden-template').html();
+                          $("#courseList").append(template);
+                        });
+                        </script>
+                        <script>
+                        $(document).ready(function(){
+                        var url = '<?php echo base_url('onlineapply') ?>' ;
+                          $("#apply").attr("href", url);
+                        });
+                        </script>
+
+
+
                 <!-- End Course Description -->
-
-                <!-- Start Course Details Tab -->
-
-                <!-- End Course Details Tab -->

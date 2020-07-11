@@ -15,7 +15,7 @@
             </button>
           </div>
           <?php endif ?>
-         <table id="datatable-buttons" id="datatable-responsive"   class="table table-striped table-bordered dataTable no-footer dt-responsive nowrap"  aria-describedby="datatable-buttons_info" cellspacing="0" width="100%">
+         <table id="datatable-buttons" class="table table-responsive table-striped table-bordered dataTable no-footer dt-responsive nowrap"  aria-describedby="datatable-buttons_info" cellspacing="0" width="100%">
               <thead>
                 <tr>
 

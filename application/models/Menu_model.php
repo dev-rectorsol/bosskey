@@ -48,35 +48,28 @@ class Menu_model extends CI_Model {
         return $query;
     }
     public function get_category_data(){
-        $this->db->select('id,category');
+        $this->db->select('id,category,status');
         $this->db->from('category');
         $query = $this->db->get();
         $query = $query->result_array();
         return $query;
     }
-
-    // function get_category_menu(){
-    //      $this->db->select('*');
-    //      $this->db->from('category');
-    //      $this->db->join('subcategory', 'category.cat_id = subcategory.cat_id');
-    //      // $this->db->where('category_id', $id);
-    //      $query = $this->db->get();
-    //     // echo $this->db->last_query();exit;
-    //      $query = $query->result_array();
-    //      return $query;
-    //    }
-
-    //    function get_menus(){
-    //         $this->db->select('cat_name.*,  GROUP_CONCAT(subcategory.subcategory,"/", subcategory.link) AS sub_category');
-    //         $this->db->from('category');
-    //         $this->db->join('subcategory', 'category.cat_id = subcategory.cat_id', 'INNER');
-    //         $this->db->group_by('category.cat_id');
-    //         $query = $this->db->get();
-    //       // echo $this->db->last_query();exit;
-    //         $query = $query->result_array();
-    //         return $query;
-    //       }
-
+    public function get($table){
+        $this->db->select();
+        $this->db->from($table);
+        $query = $this->db->get();
+        $query = $query->result_array();
+        return $query;
+    }
+    function getTopCource(){
+         $this->db->select('*');
+         $this->db->from('category');
+         $this->db->where('status','active');
+         $query = $this->db->get();
+        // echo $this->db->last_query();exit;
+         $query = $query->result_array();
+         return $query;
+       }
        function get_category(){
             $this->db->select('*');
             $this->db->from('category');
@@ -85,6 +78,26 @@ class Menu_model extends CI_Model {
             $query = $query->result_array();
             return $query;
           }
+          function get_courseData($id,$table){
+               $this->db->select('*');
+               $this->db->from($table);
+               $this->db->where('id',$id);
+               $query = $this->db->get();
+               //echo $this->db->last_query();exit;
+               $query = $query->row();
+               return $query;
+             }
+             function course_details($table){
+                  $this->db->select('course_details.id as id,category,subcategory');
+                  $this->db->from($table);
+                  $this->db->join('category','category.id=course_details.category_id','INNER');
+                  $this->db->join('subcategory','subcategory.id=course_details.subcategory_id','INNER');
+                  $query = $this->db->get();
+                  //echo $this->db->last_query();exit;
+                  $query = $query->result_array();
+                  return $query;
+                }
+
           function get_sub_category(){
                $this->db->select('*');
                $this->db->from('subcategory');
@@ -93,6 +106,16 @@ class Menu_model extends CI_Model {
                $query = $query->result_array();
                return $query;
              }
+             function subcategory($id,$table){
+                  $this->db->select('category.category,category.id as ct_id,subcategory.id,subcategory.subcategory');
+                  $this->db->from($table);
+                  $this->db->where('category_id',$id);
+                  $this->db->join('category','category.id=subcategory.category_id','inner');
+                  $query = $this->db->get();
+                //  echo $this->db->last_query();exit;
+                  $query = $query->result_array();
+                  return $query;
+                }
 
              function get_coures($id,$type){
                   $this->db->select('*');
@@ -103,18 +126,39 @@ class Menu_model extends CI_Model {
                   $query = $query->row();
                   return $query;
                 }
+                function getCategoryName($id,$table){
+                     $this->db->select('*');
+                     $this->db->from($table);
+                     $this->db->where('id',$id);
+                     $query = $this->db->get();
+                   //  echo $this->db->last_query();exit;
+                     $query = $query->row();
+                     return $query;
+                   }
+
 
              function get_sub_category_by_id($id){
                //echo $id;exit;
                 $this->db->select('*');
                 $this->db->from('subcategory');
                 $this->db->where('category_id',$id);
-
                 $query=  $this->db->get();
                   //echo $this->db->last_query($query);exit;
-                  $query = $query->result_array();
-                  return $query;
+                $query = $query->result_array();
+                return $query;
                 }
+
+                function get_cource_by_id($id){
+                  //echo $id;exit;
+                   $this->db->select('*');
+                   $this->db->from('course_details');
+                   $this->db->where('subcategory_id',$id);
+                   $query=  $this->db->get();
+                     //echo $this->db->last_query($query);exit;
+                   $query = $query->row();
+                   return $query;
+                   }
+
                 function menus() {
                         $this->db->select("*");
                         $this->db->from("category");

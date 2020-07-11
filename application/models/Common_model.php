@@ -23,16 +23,21 @@ class Common_model extends CI_Model {
     }
 
     //-- delete function
-    function delete($id,$table){
-        $this->db->delete($table, array('id' => $id));
-        return;
-    }
+    // function delete($id,$table){
+    //     $this->db->delete($table, array('id' => $id));
+    //     return;
+    // }
+		function delete($data,$table){
 
+						$this->db->delete($table, $data);
+						return;
+				}
     //-- user role delete function
     function delete_user_role($id,$table){
         $this->db->delete($table, array('user_id' => $id));
         return;
     }
+
 
 		public function get_list($table, $where = FALSE )
 		{

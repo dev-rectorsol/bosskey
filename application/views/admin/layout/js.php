@@ -6,9 +6,16 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
+    <script src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
     <script src="<?php echo base_url() ?>assets/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="<?php echo base_url() ?>assets/assets/vendors/codemirror/javascript.js"></script>
+    <script src="<?php echo base_url() ?>assets/assets/vendors/codemirror/shell.js"></script>
+    <script src="<?php echo base_url() ?>assets/assets/vendors/codemirror/codemirror.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
+    <!-- <script src="<?php echo base_url() ?>assets/assets/vendors/ace-builds/src-min/ace.js"></script>
+    <script src="<?php echo base_url() ?>assets/assets/vendors/ace-builds/src-min/mode-javascript.js"></script>
+    <script src="<?php echo base_url() ?>assets/assets/vendors/ace-builds/src-min/theme-chaos.js"></script> -->
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="<?php echo base_url() ?>assets/assets/js/off-canvas.js"></script>
@@ -16,28 +23,21 @@
     <script src="<?php echo base_url() ?>assets/assets/js/misc.js"></script>
     <script src="<?php echo base_url() ?>assets/assets/DataTables/datatables.js"></script>
     <script src="<?php echo base_url() ?>assets/assets/DataTables/datatables.min.js"></script>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script> -->
+    <script src="<?php echo base_url() ?>assets/assets/js/codeEditor.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script> -->
   <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@3.1.0/js/froala_editor.pkgd.min.js'></script>
     <script type="text/javascript">
       new FroalaEditor('#froala-editor', {
       toolbarButtons: ['html']
       });
-    </script>
-    <!-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script>tinymce.init({selector:'textarea'});</script> -->
- <!-- <script src="https://cdn.tiny.cloud/1/7cv2dqnel593wb2oaiz0a9em8ntmdvdac0l7ueeotay964ht/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
- <script>
-  tinymce.init({
-  selector: 'textarea',
-    plugins: 'a11ychecker advcode casechange formatpainter linkchecker lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinydrive tinymcespellchecker',
-    toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter insertfile pageembed permanentpen table',
-    toolbar_drawer: 'floating',
-    tinycomments_mode: 'embedded',
-    tinycomments_author: 'Author name',
-  });
-</script> -->
 
+    </script>
+
+<script>
+$(document).ready( function () {
+$('#myTable').DataTable();
+} );
+</script>
 
 
     <!-- endinject -->
@@ -87,6 +87,31 @@
         }
       });
     });
+
+    $(".cources").on('change', function(){
+         var id = $(this).val();
+
+         var csrf_name = $("#get_csrf_hash").attr('name');
+         var csrf_val = $("#get_csrf_hash").val();
+         $.ajax({
+           type: "POST",
+           url: "<?php echo base_url('admin/menu/courcese') ?>",
+           data: {'id' : id, '<?php echo $this->security->get_csrf_token_name(); ?>' : '<?php  echo $this->security->get_csrf_hash(); ?>'},
+           datatype: 'json',
+           success: function(data){
+             if(data=='true'){
+                 $("#myTag").css('background', 'rgb(254, 57, 84)');
+                 alert('all ready added');
+                  $('#btn').prop('disabled', true);
+             }
+             else {
+               $('#btn').prop('disabled', false);
+             }
+              // $("#addstates").html(JSON.parse(data));
+           }
+         });
+    });
+
   });
 
     </script>

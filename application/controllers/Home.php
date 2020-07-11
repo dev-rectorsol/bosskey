@@ -32,9 +32,7 @@ class Home extends CI_Controller {
 	 	$data['phone'] = $this->Common_model->get_phonecode();
 	 	$data['state'] = $this->Common_model->get_states_by_id();
 	 	$data['menus'] = $this->menu_model->menus();
-	 	// $data = array('menus' => $menus);
-	 	// echo "<pre>";
-	 	// echo print_r($data['menus']);exit;
+	 	$data['topCource'] = $this->menu_model->getTopCource();
 	 	$data['main_content'] = $this->load->view('web/home', $data, TRUE);
 	 	$this->load->view('web/index', $data);
 	 }
@@ -45,13 +43,8 @@ class Home extends CI_Controller {
 	$data['main_content'] = $this->load->view('web/about', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
-public function coursedetail(){
-	$data = array();
-	$data['page'] = 'COURSEDETAILS';
-	$data['menus'] = $this->menu_model->menus();
-	$data['main_content'] = $this->load->view('web/coursedetail', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
+
+
 
   public function onlineapply(){
 	$data = array();
@@ -86,13 +79,6 @@ public function coursedetail(){
 	$data['main_content'] = $this->load->view('web/faq', $data, TRUE);
 	$this->load->view('web/index', $data);
   }
-  /*Our Courses*/
-  // public function businessadministration(){
-	// $data = array();
-	// $data['page'] = 'BusinessAdministration';
-	// $data['main_content'] = $this->load->view('web/masterprograminbusinessadministration11months', $data, TRUE);
-	// $this->load->view('web/index', $data);
-  // }
 
   public function masterprogramhumanresourcemanagement(){
 	$data = array();
@@ -1216,12 +1202,20 @@ public function ourAlumni(){
 	$data['main_content'] = $this->load->view('web/about/ouralumni', $data, TRUE);
 	$this->load->view('web/index', $data);
 }
+public function courselist(){
+	$data = array();
+	$data['page'] = 'Course List';
+	$data['menus'] = $this->menu_model->menus();
+	$data['main_content'] = $this->load->view('web/courselist', $data, TRUE);
+	$this->load->view('web/index', $data);
+}
 /*Our Courses*/
 public function businessadministration($id){
 $data = array();
 $data['page'] = 'BusinessAdministration';
 $menus = $this->menu_model->menus();
 $data = array('menus' => $menus);
+
 $data['subcategory_value'] = $this->menu_model->get_sub_category();
 $data['course'] = $this->menu_model->get_coures($id,'subcategory_id');
 if($data['course']){
@@ -1232,11 +1226,13 @@ if($data['course']){
 //echo print_r($data['course']);exit;
 $this->load->view('web/index', $data);
 }
+
 public function categoryDetails($id){
 $data = array();
 $data['page'] = 'Category Details';
 $menus = $this->menu_model->menus();
 $data = array('menus' => $menus);
+
 $data['category_value'] = $this->menu_model->get_category();
 $data['course'] = $this->menu_model->get_coures($id,'category_id');
 if($data['course']){
@@ -1248,12 +1244,34 @@ if($data['course']){
 $this->load->view('web/index', $data);
 }
 
+public function courseDetail($id){
+	$data = array();
+	$data['page'] = 'COURSEDETAILS';
+	$data['menus'] = $this->menu_model->menus();
+  $data['category_value'] = $this->menu_model->getCategoryName($id,'category');
+	//print_r($data['category_value']);exit;
+	$data['Allcource'] = $this->menu_model->subcategory($id,'subcategory');
+	// echo "<pre>";
+	// print_r($data['Allcource']);exit;
+	if($data['Allcource'])
+	{
+			$data['main_content'] = $this->load->view('web/coursedetail', $data, TRUE);
+	}
+	else{
+  $data['category_value'] = $this->menu_model->get_category();
+	$data['course'] = $this->menu_model->get_coures($id,'category_id');
+	$data['main_content'] = $this->load->view('web/course_page', $data, TRUE);
+	}
+	// echo "<pre>";
+	// print_r(	$data['cource'] );exit;
 
+	$this->load->view('web/index', $data);
+  }
+	
 public function submit_query()
 {
 	 // echo '<pre>';
 	 // echo print_r($_POST);exit;
-
 	 if ($_POST) {
 		 $data = array(
 					 'email' => $_POST['email'],
@@ -1261,18 +1279,16 @@ public function submit_query()
 					 'query	' => $_POST['query']
 			 );
 			//echo print_r($data);exit;
-			 $data = $this->security->xss_clean($data);
+			  $data = $this->security->xss_clean($data);
 			 //-- check duplicate email
 				$this->Common_model->insert($data, 'query');
 				$this->session->set_flashdata("msg","Form Apply Successfully");
 				redirect(base_url('home'));
 			 //echo $user_id;exit;
 		 }
-
 		 $data['page_title'] = 'Home';
 		 redirect(base_url('home'));
 }
-
 
 
 }

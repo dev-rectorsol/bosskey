@@ -160,7 +160,7 @@ Enquire now
         <!-- End About Section -->
 
         <!-- Start Cources Section -->
-        <section class="our-cources padding-lg">
+        <!-- <section class="our-cources padding-lg">
             <div class="container">
 
                 <h2> <span>Unique Features of our programs</span> What do you want to study?</h2>
@@ -173,7 +173,8 @@ Enquire now
                                 <div class="duration">
                                     <h4>11 Months</h4>
                                     <span> Courses</span> </div>
-                                <a href="<?php echo base_url('businessadministration');?>"><span class="icon-more-icon"></span></a> </div>
+                                <a href="<?php echo base_url('businessadministration');?>"><span class="icon-more-icon"></span></a>
+                            </div>
                         </div>
                     </li>
                     <li>
@@ -211,8 +212,44 @@ Enquire now
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- End Cources Section -->
+
+
+        <style>
+
+
+      .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      margin: 20px 0;
+      padding: 10px;
+      width: 100%;
+      min-height: 200px;
+      border: 2px #ccc solid;
+      border-radius: 10px;
+      color: black;
+      }
+        </style>
+        <section class="our-cources padding-lg">
+            <div class="container">
+
+                <h2> <span>Unique Features of our programs</span> What do you want to study?</h2>
+
+                  <?php foreach($topCource as $value):?>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="<?php echo base_url('home/courseDetail/').$value['id'];?>">
+                          <div class="box">
+                            <h5 class="text-center"><?php echo $value['category']?></h5>
+                          </div>
+                            </a>
+                        </div>
+                  <?php endforeach;?>
+
+            </div>
+        </section>
 
 
         <section class="browse-teacher grey-bg padding-lg pd-0">
@@ -275,7 +312,7 @@ Enquire now
         </section>
         <!-- End Testimonial -->
 
-        <style>
+        <!-- <style>
         .modal-content{
           width:600px;
           height: 500px;
@@ -300,14 +337,14 @@ Enquire now
     99%{    color:transparent;  }
     100%{   color: #fff;    }
 }
-        </style>
+        </style> -->
 
 
 
 
 
 
-        <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <?php $msg = $this->session->flashdata('msg'); ?>
@@ -350,4 +387,4 @@ Enquire now
                   </div>
             </div>
           </div>
-        </div>
+        </div> -->

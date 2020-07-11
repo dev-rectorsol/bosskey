@@ -8,14 +8,14 @@
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
-                
+
                 <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                 </a> <a href="#" class="download-prospects brochure"> <span class="icon-brochure-icon"></span> <span class="small">Download:</span>Course Brochure</a> </div>
             </div>
         </div>
     </div>
     <!-- End Banner -->
-    
+
     <!-- Start Course Description -->
     <section class="about inner padding-lg">
         <div class="container">
@@ -59,56 +59,52 @@
                     <p><strong>Multiple-Choice Questions-examination consisting of 50 questions.</strong></p>
                     <p><strong>90 minutes duration of the exam.</strong></p>
                     <p><strong>A Pass is achieved by answering 50% of the questions correctly.</strong></p>
-
-
                 </div>
-                <div class="col-md-3 ">
-                    <?php echo $courselist;?>
-                </div>
+                <div class="col-md-3 "id="courseList"></div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="course-detail clearfix">
                         <div class="duration clearfix">
-                            <div class="icon"><span class="icon-duration-icon"></span></div>
+                          <div class="icon"><span class="fa fa-clock-o"></span></div>
                             <div class="detail"> <span>Duration</span> 6 Months </div>
                         </div>
                         <div class="duration eligible clearfix">
-                            <div class="icon"><span class="icon-eligibility-icon"></span></div>
+                          <div class="icon"><span class="fa fa-list"></span></div>
                             <div class="detail"> <span>ELIGIBILITY:</span>Graduation/ Diploma Graduates</div>
                         </div>
                         <div class="duration fee clearfix">
                             <div class="detail"> <span>COURSE FEE:</span> Rs.35,000 </div>
                         </div>
-                        <a href="<?php echo base_url('onlineapply') ?>" class="btn">apply now <span class="icon-more-icon"></span></a> </div>
+                        <a  href="" id="apply" class="btn">apply now <span class="fa fa-caret-square-o-right "></span></a> </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Course Description -->
-        <!-- Start Course Details Tab -->
+
         <section class="details-tab">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
                             <ul class="nav nav-tabs course-tab" id="myTabs" role="tablist">
-                                <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="icon-curriculam-icon"></span>
+                              <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="fa fa-book"></span>
                                 <div class="block">COURSE</div>
-                            CURRICULUM </a> </li>
-                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="icon-schedule-icon"></span>
-                            <div class="block">FEES</div>
-                        DETAILS</a> </li>
-                        <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="icon-semester-icon"></span>
-                        <div class="block">Key TAKE AWAY</div>
-                    </a> </li>
-                    <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="icon-parents-icon"></span>
-                    <div class="block">WHO </div>
-                SHOULD ATTEND </a> </li>
-                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="icon-student-icon"></span>
-                <div class="block">POTENTIAL</div>
-            CAREER GROWTH</a> </li>
-            
+                                CURRICULUM </a> </li>
+                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="fa fa-calendar"></span>
+                                <div class="block">FEES</div>
+                                 DETAILS</a> </li>
+                            <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="fa fa-graduation-cap"></span>
+                                <div class="block">Key TAKE AWAY</div>
+                                 </a> </li>
+                            <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="fa fa-users"></span>
+                                <div class="block">WHO </div>
+                                SHOULD ATTEND </a> </li>
+
+                                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="fa fa-user-circle"></span>
+                                <div class="block">POTENTIAL</div>
+                                CAREER GROWTH</a> </li>
+
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade semester active in" role="tabpanel" id="curriculam" aria-labelledby="curriculam-tab">
@@ -151,7 +147,7 @@
                                 <th>FEES</th>
                                 <th>AMOUNT</th>
                                 <th>TOTAL FEES</th>
-                                
+
                             </tr>
                         </thead>
                         <tbody>
@@ -159,7 +155,7 @@
                                 <td><div class="table-col1"> One Time Payment</div></td>
                                 <td><div class="fee-amt"> Rs.35,000</div></td>
                                 <td><div class="fee-amt"> Rs.35,000</div></td>
-                                
+
                             </tr>
                             <tr>
                                 <td><div class="table-col1"> Installment-I </div></td>
@@ -178,7 +174,7 @@
                     <td><div class="fee-amt">Rs.10,000</div>
                 </td>
             </tr>
-            
+
         </tbody>
     </table>
 </div>
@@ -196,22 +192,6 @@
 </div>
 <div class="tab-pane fade" role="tabpanel" id="semester" aria-labelledby="semester-tab">
 <div class="row">
-    <!-- <div class="col-sm-12">
-        <ul class="content">
-            <li>
-                <h4>By completing Online Executive Master Program in Business Administration from BIMT Institute of Business Management,the students/professionals/executives will:</h4>
-                <ul>
-                    <li>Attain advanced, in-depth, focused and strong knowledge in principles and practices involved in all functions of business administration</li>
-                    <li>Rapidly trailup to the leadership roles in this globally competitive world</li>
-                    <li>Improve efficiency  which worth it to handle challenging and ever-changing business environment</li>
-                    <li>Develop acapability to apply innovative approaches to address business problems</li>
-                    <li>Acquire skills in HR Management, Marketing Management, Managerial Economics, Organizational Structure & Behaviour, Financial Management and Business Communication by BIMT India</li>
-                    <li>An opportunity to choose two core subjects in which the students want to gain cutting-edge expertise</li>
-                </ul>
-            </li>
-        </ul>
-    </div> -->
-    
 </div>
 </div>
 <div class="tab-pane semester fade" role="tabpanel" id="teachers" aria-labelledby="teachers-tab">
@@ -225,35 +205,13 @@
             <li>It is also a perfect opportunity for non-marketing professionals and business leaders in all functional areas to develop their marketing strategy around their customers, their products and services, their market, or their brand by BIMT India.</li>
         </ul>
     </div>
-    
+
 </div>
 </div>
-<!-- add new contant-->
 <div class="tab-pane fade" role="tabpanel" id="career" aria-labelledby="career-tab">
 <div class="row">
-    <!-- <div class="col-sm-12">
-        <ul class="content">
-            <li>
-                <h4>On completion of Executive Program in Business Analytics from BIMT Institute of Business Management, the students achieve a satisfying career growth such as:</h4>
-                <ul>
-                    <li>Expose participants to state of  the art tools and techniques of analytics.</li>
-                    <li>Learn how to apply analytics across industries such as marketing, finance andoperations</li>
-                    <li>A solid foundation in topics needed for building capabilities to take on the new form of competition.</li>
-                    <li>Getting these certification courses can increase your chances of getting hired in some of the best companies.</li>
-                    <li>Some of the companies known for using cutting edge Analytics (in India)are:</li>
-                    <ul>
-                        <li>Technology leaders: Google, Facebook, Linkedin</li>
-                        <li>Banking, Financial Services and Insurance(BFSI):</li>
-                        <li>Capital One, American Express, ICICI,HDFC</li>
-                    </ul>
-                </ul>
-            </li>
-        </ul>
-    </div> -->
-    
 </div>
 </div>
-<!-- add new contant-->
 </div>
 </div>
 </div>

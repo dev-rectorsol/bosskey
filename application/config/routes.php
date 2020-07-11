@@ -228,3 +228,4 @@ $route['categoryDetails'] = 'home/categoryDetails';
   $route['ibmtinstitue'] = 'home/ibmtinstitue';
   $route['ibmtinstituecredentials'] = 'home/ibmtinstituecredentials';
   $route['ourAlumni'] = 'home/ourAlumni';
+  $route['courselist'] = 'home/courselist';

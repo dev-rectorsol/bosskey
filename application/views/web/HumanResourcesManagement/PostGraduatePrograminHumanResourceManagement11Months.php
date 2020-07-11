@@ -8,14 +8,14 @@
                 </div>
             </div>
             <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
-                
+
                 <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                 </a> <a href="#" class="download-prospects brochure"> <span class="icon-brochure-icon"></span> <span class="small">Download:</span>Course Brochure</a> </div>
             </div>
         </div>
     </div>
     <!-- End Banner -->
-    
+
     <!-- Start Course Description -->
     <section class="about inner padding-lg">
         <div class="container">
@@ -33,66 +33,64 @@
                     <p>A Post Graduate  Program in Human Resource Management will help professionals to gain in-depth knowledge of core concepts and provide practical solutions for challenges prevailing in the current business scenario. The role of HR professionals in the modern world has undergone a drastic change due to the evolution of technologies, globalization, etc... This online Post-Graduate Program in Human Resource Management from BIMT Institute of Business Management will help the junior or mid-level professionals to demonstrate and fulfill the expectations of the organization. BIMT India curriculum is designed in such a way to help them to understand the holistic approach towards human resource management.
                     </p>
                 </div>
-                <div class="col-md-3 ">
-                    <?php echo $courselist;?>
-                </div>
+                <div class="col-md-3 "id="courseList"></div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="course-detail clearfix">
                         <div class="duration clearfix">
-                            <div class="icon"><span class="icon-duration-icon"></span></div>
+                          <div class="icon"><span class="fa fa-clock-o"></span></div>
                             <div class="detail"> <span>Duration</span> 11 Months </div>
                         </div>
                         <div class="duration eligible clearfix">
-                            <div class="icon"><span class="icon-eligibility-icon"></span></div>
+                          <div class="icon"><span class="fa fa-list"></span></div>
                             <div class="detail"> <span>ELIGIBILITY:</span>Fresh Graduates/ Diploma in any discipline or Equivalent</div>
                         </div>
                         <div class="duration fee clearfix">
                             <div class="detail"> <span>COURSE FEE:</span> Rs.30,000 </div>
                         </div>
-                        <a href="<?php echo base_url('onlineapply') ?>" class="btn">apply now <span class="icon-more-icon"></span></a> </div>
+                        <a  href="" id="apply" class="btn">apply now <span class="fa fa-caret-square-o-right "></span></a> </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Course Description -->
-        <!-- Start Course Details Tab -->
+
         <section class="details-tab">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
                             <ul class="nav nav-tabs course-tab" id="myTabs" role="tablist">
-                                <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="icon-curriculam-icon"></span>
+                              <li role="presentation" class="active"> <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true"> <span class="fa fa-book"></span>
                                 <div class="block">COURSE</div>
-                            CURRICULUM </a> </li>
-                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="icon-schedule-icon"></span>
-                            <div class="block">FEES</div>
-                        DETAILS</a> </li>
-                        <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="icon-semester-icon"></span>
-                        <div class="block">Key TAKE AWAY</div>
-                    </a> </li>
-                    <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="icon-parents-icon"></span>
-                    <div class="block">WHO </div>
-                SHOULD ATTEND </a> </li>
-                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="icon-student-icon"></span>
-                <div class="block">POTENTIAL</div>
-            CAREER GROWTH</a> </li>
-            
+                                CURRICULUM </a> </li>
+                            <li role="presentation" class=""> <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false"> <span class="fa fa-calendar"></span>
+                                <div class="block">FEES</div>
+                                 DETAILS</a> </li>
+                            <li role="presentation" class=""> <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false"> <span class="fa fa-graduation-cap"></span>
+                                <div class="block">Key TAKE AWAY</div>
+                                 </a> </li>
+                            <li role="presentation" class=""> <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false"> <span class="fa fa-users"></span>
+                                <div class="block">WHO </div>
+                                SHOULD ATTEND </a> </li>
+
+                                <li role="presentation" class=""> <a href="#career" role="tab" id="career-tab" data-toggle="tab" aria-controls="career" aria-expanded="false"> <span class="fa fa-user-circle"></span>
+                                <div class="block">POTENTIAL</div>
+                                CAREER GROWTH</a> </li>
+
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade semester active in" role="tabpanel" id="curriculam" aria-labelledby="curriculam-tab">
-                
-                
+
+
                 <div class="row">
                     <div class="col-sm-12 txt-block">
                         <h4>Post Graduate Program in Human Resource Management from BIMT Institute of Business Management comprises of 8  core subjects taught under 2 semesters. </h4>
                     </div>
-                    <div class="col-sm-6">   
+                    <div class="col-sm-6">
                         <ul class="content">
                             <li>
-                            <h4>Semester I</h4>                               
+                            <h4>Semester I</h4>
                                 <ul>
                                     <li>Principles & Practices of Management</li>
                                     <li>Human Resource Management</li>
@@ -100,13 +98,13 @@
                                     <li>Organisational Behaviour</li>
                                     <li>Business Communication</li>
                                 </ul>
-                            </li>                           
+                            </li>
                         </ul>
                     </div>
-                    <div class="col-sm-6">   
+                    <div class="col-sm-6">
                         <ul class="content">
                             <li>
-                            <h4>Semester II</h4>                               
+                            <h4>Semester II</h4>
                                 <ul>
                                     <li>Human Resource Development & Training</li>
                                     <li>Industrial Relations & Labour Laws</li>
@@ -114,7 +112,7 @@
                                     <li>Compensation Management</li>
                                     <li>Computer Fundamental</li>
                                 </ul>
-                            </li>                           
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -127,7 +125,7 @@
                                 <th>FEES</th>
                                 <th>AMOUNT</th>
                                 <th>TOTAL FEES</th>
-                                
+
                             </tr>
                         </thead>
                         <tbody>
@@ -159,9 +157,9 @@
             <ul>
                 <li> Fees need to be paid in lump sum / first Installment via Demand Draft (DD) or online payment in favor of "BIMT Institute of Business Management".</li>
                 <li>Exam Fees and GST 18% applicable </li>
-                
+
             </ul>
-            
+
         </div>
     </div>
 </div>
@@ -181,7 +179,7 @@
             </li>
         </ul>
     </div>
-    
+
 </div>
 </div>
 <div class="tab-pane semester fade" role="tabpanel" id="teachers" aria-labelledby="teachers-tab">
@@ -197,10 +195,10 @@
             <li>Those who are in the line of starting a start-up.</li>
         </ul>
     </div>
-    
+
 </div>
 </div>
-<!-- add new contant-->
+
 <div class="tab-pane fade" role="tabpanel" id="career" aria-labelledby="career-tab">
 <div class="row">
     <div class="col-sm-12">
@@ -216,10 +214,10 @@
             </li>
         </ul>
     </div>
-    
+
 </div>
 </div>
-<!-- add new contant-->
+
 </div>
 </div>
 </div>
