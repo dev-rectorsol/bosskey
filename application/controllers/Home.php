@@ -36,26 +36,23 @@ class Home extends CI_Controller {
 	 	$data['main_content'] = $this->load->view('web/home', $data, TRUE);
 	 	$this->load->view('web/index', $data);
 	 }
-  public function about(){
-	$data = array();
-	$data['page'] = 'ABOUT';
-	$data['menus'] = $this->menu_model->menus();
-	$data['main_content'] = $this->load->view('web/about', $data, TRUE);
-	$this->load->view('web/index', $data);
-}
+	  public function about(){
+		$data = array();
+		$data['page'] = 'ABOUT';
+		$data['menus'] = $this->menu_model->menus();
+		$data['main_content'] = $this->load->view('web/about', $data, TRUE);
+		$this->load->view('web/index', $data);
+	  }
 
-
-
-  public function onlineapply(){
-	$data = array();
-	$data['page'] = 'ONLINEAPPLY';
-	 $data['country'] = $this->Common_model->select('country');
-	 $data['menus'] = $this->menu_model->menus();
-// 		$data['phone'] = $this->Common_model->get_phonecode($d);
-		$data['state'] = $this->Common_model->get_states_by_id();
-	$data['main_content'] = $this->load->view('web/onlineapply', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
+	  public function onlineapply(){
+		$data = array();
+		$data['page'] = 'ONLINEAPPLY';
+		$data['country'] = $this->Common_model->select('country');
+		$data['menus'] = $this->menu_model->menus();
+	  $data['state'] = $this->Common_model->get_states_by_id();
+		$data['main_content'] = $this->load->view('web/onlineapply', $data, TRUE);
+		$this->load->view('web/index', $data);
+	  }
 
   public function term(){
 	$data = array();
@@ -80,458 +77,14 @@ class Home extends CI_Controller {
 	$this->load->view('web/index', $data);
   }
 
-  public function masterprogramhumanresourcemanagement(){
-	$data = array();
-	$data['page'] = 'masterprogramhumanresourcemanagement';
-	$data['main_content'] = $this->load->view('web/masterprogramhumanresourcemanagement', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-
-  public function masterprogramsupplychainmanagement(){
-	$data = array();
-	$data['page'] = 'masterprogramsupplychainmanagement';
-	$data['main_content'] = $this->load->view('web/masterprogramsupplychainmanagement', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-  public function masterprograminternationalbusiness(){
-	$data = array();
-	$data['page'] = 'masterprograminternationalbusiness';
-	$data['main_content'] = $this->load->view('web/masterprograminternationalbusiness', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-
-  public function  masterprogrambusinessadministrationcertifications(){
-	$data = array();
-	$data['page'] = 'masterprogrambusinessadministrationcertifications';
-	$data['main_content'] = $this->load->view('web/masterprogrambusinessadministrationcertifications', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-  public function  businessadministrationc11months(){
-	$data = array();
-	$data['page'] = 'businessadministrationc11months';
-	$data['main_content'] = $this->load->view('web/businessadministrationc11months', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-
-  public function MasterProgramInSupplyChainManagement11Months()
-  {
-  	$data = array();
-	$data['page'] = 'businessadministrationc11months';
-	$data['main_content'] = $this->load->view('web/MasterProgramInSupplyChainManagement11Months', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-
-  public function MasterProgramInBusinessAdministration2Year ()
-  {
-  	$data = array();
-	$data['page'] = 'businessadministrationc11months';
-	$data['main_content'] = $this->load->view('web/MasterProgramInBusinessAdministration2Year', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-  public function MasterProgramInBusinessAdministration2Years3Certifications ()
-  {
-  	$data = array();
-	$data['page'] = 'businessadministrationc11months';
-	$data['main_content'] = $this->load->view('web/MasterProgramInBusinessAdministration2Years3Certifications', $data, TRUE);
-	$this->load->view('web/index', $data);
-  }
-	//************** Course Content  ******************** //
-
-  	//******** Executive Master Certification *********** //
-
-	public function ExecutiveMasterProgramInBusinessAdministration11Months ()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ExeMstrCerti/ExecutiveMasterProgramInBusinessAdministration11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	  public function ExecutiveMasterProgramInBusinessAdministration4Certifications11Months ()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ExeMstrCerti/ExecutiveMasterProgramInBusinessAdministration4Certifications11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function ExecutiveProgramInBusinessManagement11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ExeMstrCerti/ExecutiveProgramInBusinessManagement11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function ExecutiveProgramInBusinessManagement11Months3Certification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ExeMstrCerti/ExecutiveProgramInBusinessManagement11Months3Certification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//************** Course Content  ******************** //
-
-  		//******** Integrated Courses *********** //
-
-	  public function DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration2Year()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration2Year', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function DiplomaInBusinessAdministrationDbaMasterProgramInBusinessAdministration11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationDbaMasterProgramInBusinessAdministration11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function DiplomaInBusinessAdministrationExecutiveMasterProgramInBusinessAdministration4Certifications()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationExecutiveMasterProgramInBusinessAdministration4Certifications', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function DiplomaInBusinessAdministrationDbaExecutiveMasterProgramInBusinessAdministration11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationDbaExecutiveMasterProgramInBusinessAdministration11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration3Certifications11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration3Certifications11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration2Year3Certifications()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/IntegratedCourses/DiplomaInBusinessAdministrationMasterProgramInBusinessAdministration2Year3Certifications', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//******** CFA Training *********** //
-	 public function CertificateInfinancialAnalysis6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/CFATraining/CertificateInfinancialAnalysis6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function ExecutiveProgramInFinancialAnalysis11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/CFATraining/ExecutiveProgramInFinancialAnalysis11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	  public function PostGraduateProgramInFinancialAnalysis11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/CFATraining/PostGraduateProgramInFinancialAnalysis11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//******** Business Analytics *********** //
-
-	public function BusinessAnalyticsCertification6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/BusinessAnalytics/BusinessAnalyticsCertification6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function ExecutiveProgramInBusinessAnalytics11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/BusinessAnalytics/ExecutiveProgramInBusinessAnalytics11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function PostGraduatePrograminBusinessAnalytics11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/BusinessAnalytics/PostGraduatePrograminBusinessAnalytics11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//******** Human Resources Management *********** //
-
-	public function CertificationinHumanResourceManagement6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/HumanResourcesManagement/CertificationinHumanResourceManagement6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function PostGraduatePrograminHumanResourceManagement11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/HumanResourcesManagement/PostGraduatePrograminHumanResourceManagement11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function ExecutiveProgramInstrategicHumanresourceManagement11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/HumanResourcesManagement/ExecutiveProgramInstrategicHumanresourceManagement11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//******** Digital Marketing *********** //
-
-	public function DigitalMarketingCertification6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DigitalMarketing/DigitalMarketingCertification6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function ExecutiveProgramInDigitalMarketing11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DigitalMarketing/ExecutiveProgramInDigitalMarketing11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function PostGraduateProgramInDigitalMarketing11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DigitalMarketing/PostGraduateProgramInDigitalMarketing11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-//******** Certified Industrial Accountant +2 Certification - 6 Months *********** //
-
-	public function CertifiedIndustrialAccountant2Certification6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/CertifiedIndustrialAccountant2Certification6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-//******** Data Science *********** //
-	public function DataScienceCertification6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DataScience/DataScienceCertification6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function ExecutiveProgramInDatascience11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DataScience/ExecutiveProgramInDatascience11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function PostGraduateProgramInDataScience11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/DataScience/PostGraduateProgramInDataScience11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-//******** Post Graduate Programs *********** //
-
-	public function PostGraduateProgramInManagement11Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/PostGraduatePrograms/PostGraduateProgramInManagement11Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function PostGraduateProgramInManagement11Months3Certification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/PostGraduatePrograms/PostGraduateProgramInManagement11Months3Certification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	//Post Graduate Program in Management -11-Months -3-Certification Best Manager Award //
-	  // 404 Contain Not Available  //
-
-	public function PostGraduateProgramInManagementMasterProgramInBusinessAdministration2Years()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/PostGraduatePrograms/PostGraduateProgramInManagementMasterProgramInBusinessAdministration2Years', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-//******** Six Month Program *********** //
-
-	public function DiplomaInBusinessAdministration6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/SixMonthProgram/DiplomaInBusinessAdministration6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function AdvancedDiplomaInBusinessAdministration6Months()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/SixMonthProgram/AdvancedDiplomaInBusinessAdministration6Months', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-//******** TUV SUD South Asia *********** //
-
-	public function TuvSudPostGraduateCertificateInBusinessManagement2Certification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/TuvSudSouthAsia/TuvSudPostGraduateCertificateInBusinessManagement2Certification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function TuvSudPostGraduateCertificateInBusinessManagement()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/TuvSudSouthAsia/TuvSudPostGraduateCertificateInBusinessManagement', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-//******** Post Graduate Diploma in Management in IPMA UK *********** //
-
-	  public function PostGraduateDiplomaInManagementInIPMAUK()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/PostGraduateDiplomaInManagementInIPMAUK', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-//******** Short Term Courses *********** //
-
-	public function SixSigmaGreenBeltProfessional()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SixSigmaGreenBeltProfessional', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function SixSigmaBlackBeltProfessional()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SixSigmaBlackBeltProfessional', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function ProjectManagementCertification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/ProjectManagementCertification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function SixSigmaGreenBeltSixSigmaBlackBeltProfessional()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SixSigmaGreenBeltSixSigmaBlackBeltProfessional', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function SixSigmaMasterBlackBeltProfessional()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SixSigmaMasterBlackBeltProfessional', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-
-	public function SixSigmaBlackBeltProfessionalTotalQualityManagementProfessional()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SixSigmaBlackBeltProfessionalTotalQualityManagementProfessional', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function SSGB_SSBB_TQM_PMCertification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/SSGB_SSBB_TQM_PMCertification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
-	public function WebAnalyticsProfessionalCertification()
-	  {
-	  	$data = array();
-		$data['page'] = 'businessadministrationc11months';
-		$data['courselist']= $this->load->view('web/layout/courselist', $data, TRUE);
-		$data['main_content'] = $this->load->view('web/ShortTermCourses/WebAnalyticsProfessionalCertification', $data, TRUE);
-		$this->load->view('web/index', $data);
-	  }
 
 	  // Start function for specialization
 
 	public function specialization(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -539,90 +92,120 @@ class Home extends CI_Controller {
 	public function aviationManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/aviationManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function agricultureManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/agricultureManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function bankingAndFinancialServicesManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/bankingAndFinancialServicesManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function businessAnalytics(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/businessAnalytics', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function constructionManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/constructionManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function customerRelationshipManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/customerRelationshipManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function digitalMarketing(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/digitalMarketing', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function energyManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/energyManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function entrepreneurshipManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/entrepreneurshipManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function eventManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/eventManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function exportAndImportManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/exportAndImportManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function financeMnagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/financeMnagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function foreignTradeManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/foreignTradeManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function healthAndHospitalManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/healthAndHospitalManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
 	public function hospitalityManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/hospitalityManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -630,6 +213,8 @@ class Home extends CI_Controller {
 	public function hotelManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/hotelManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -637,6 +222,8 @@ class Home extends CI_Controller {
 	public function humanResourceManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/humanResourceManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -644,6 +231,8 @@ class Home extends CI_Controller {
 	public function informationSystemManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/informationSystemManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -651,6 +240,8 @@ class Home extends CI_Controller {
 	public function informationTechnology(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/informationTechnology', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -658,6 +249,8 @@ class Home extends CI_Controller {
 	public function insuranceManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/insuranceManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -665,6 +258,8 @@ class Home extends CI_Controller {
 	public function internationalBusinessManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/internationalBusinessManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -672,6 +267,8 @@ class Home extends CI_Controller {
 	public function logisticManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/logisticManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -679,6 +276,8 @@ class Home extends CI_Controller {
 	public function marketingManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/marketingManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -686,6 +285,8 @@ class Home extends CI_Controller {
 	public function materialsManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/materialsManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -693,6 +294,8 @@ class Home extends CI_Controller {
 	public function mediaJournalismManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/mediaJournalismManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -700,6 +303,8 @@ class Home extends CI_Controller {
 	public function oilAndGasManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/oilAndGasManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -707,6 +312,8 @@ class Home extends CI_Controller {
 	public function operationsManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/operationsManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -714,6 +321,8 @@ class Home extends CI_Controller {
 	public function pharmaceuticalsManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/pharmaceuticalsManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -721,6 +330,8 @@ class Home extends CI_Controller {
 	public function personnelManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/personnelManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -728,6 +339,8 @@ class Home extends CI_Controller {
 	public function powerManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/powerManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -735,6 +348,8 @@ class Home extends CI_Controller {
 	public function productionManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/productionManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -742,6 +357,8 @@ class Home extends CI_Controller {
 	public function projectManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/projectManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -749,6 +366,8 @@ class Home extends CI_Controller {
 	public function qualityManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/qualityManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -756,6 +375,8 @@ class Home extends CI_Controller {
 	public function retailManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/retailManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -763,6 +384,8 @@ class Home extends CI_Controller {
 	public function riskManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/riskManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -770,6 +393,8 @@ class Home extends CI_Controller {
 	public function ruralManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/ruralManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -777,6 +402,8 @@ class Home extends CI_Controller {
 	public function safetyManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/safetyManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -784,6 +411,8 @@ class Home extends CI_Controller {
 	public function sixSigmaManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/sixSigmaManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -791,6 +420,8 @@ class Home extends CI_Controller {
 	public function supplyChainManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/supplyChainManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -798,6 +429,8 @@ class Home extends CI_Controller {
 	public function salesManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/salesManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -805,6 +438,8 @@ class Home extends CI_Controller {
 	public function travelAndTourismManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/travelAndTourismManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -812,6 +447,8 @@ class Home extends CI_Controller {
 	public function telecomManagement(){
 		$data = array();
 		$data['page'] = 'Specialization';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/specialization/telecomManagement', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -819,6 +456,8 @@ class Home extends CI_Controller {
 	public function alumniSpeak(){
 		$data = array();
 		$data['page'] = 'Alumni Speak';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/alumniSpeak', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -828,6 +467,8 @@ class Home extends CI_Controller {
 	public function onlineAdmissionForm(){
 		$data = array();
 		$data['page'] = 'Online Admission Form';
+		$data['menus'] = $this->menu_model->menus();
+
 		$data['main_content'] = $this->load->view('web/studentCorner/onlineAdmissionForm', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -835,6 +476,8 @@ class Home extends CI_Controller {
 	public function applyPayOnlineFees(){
 		$data = array();
 		$data['page'] = 'Apply & Pay Online';
+		$data['menus'] = $this->menu_model->menus();
+		$data['course'] = $this->menu_model->get('subcategory');
 		$data['main_content'] = $this->load->view('web/studentCorner/applyPayOnlineFees', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -842,6 +485,7 @@ class Home extends CI_Controller {
 	public function studentLogin(){
 		$data = array();
 		$data['page'] = 'Student Login';
+			$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/studentLogin', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -849,6 +493,7 @@ class Home extends CI_Controller {
 	public function facultyDetails(){
 		$data = array();
 		$data['page'] = 'Apply & Pay Online';
+		$data['menus'] = $this->menu_model->menus();
 		$data['main_content'] = $this->load->view('web/studentCorner/facultyDetails', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
@@ -947,9 +592,6 @@ class Home extends CI_Controller {
 		$data['main_content'] = $this->load->view('web/blog', $data, TRUE);
 		$this->load->view('web/index', $data);
 	}
-
-
-
 
 	// End function of specialization
 
@@ -1267,7 +909,7 @@ public function courseDetail($id){
 
 	$this->load->view('web/index', $data);
   }
-	
+
 public function submit_query()
 {
 	 // echo '<pre>';

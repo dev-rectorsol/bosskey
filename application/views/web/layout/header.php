@@ -114,7 +114,7 @@
                        {?>
                          <li> <a href="<?php echo base_url('home/categoryDetails/'.$menu->id);?>"><?php echo $menu->category;?> </a></li>
                     <?php } else{?>
-                     <li class="dropdown-submenu" > <a href="#"><?php echo $menu->category;?> </a>
+                     <li class="dropdown-submenu" > <a href="<?php echo base_url('home/courseDetail/').$menu->id;?>"><?php echo $menu->category;?> </a>
 
                        <?php  if(isset($menu->children)){ ?>
                           <ul class="dropdown-menu">

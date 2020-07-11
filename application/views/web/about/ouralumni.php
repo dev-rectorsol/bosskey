@@ -17,16 +17,12 @@
 			<div class="row">
 
 				<div class="col-lg-12 col-md-12 col-sm-12 ">
-
-										<div class="vc_row wpb_row row"><div class="wpb_column vc_column_container col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_custom_heading" ><h2 style="font-size: 26px !important;color: #dd3333 !important;text-align: left !important;font-family:Roboto !important;font-weight:400 !important;font-style:normal" >IIBM Institute Alumni Network</h2></div><div class="vc_separator wpb_content_element vc_sep_width_100 vc_sep_pos_align_left vc_separator_no_text vc_sep_color_blue">
-	<span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-		<span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-
+          <h3 style="text-align: justify;"><span style="text-decoration: underline;"><span style="color: #800080; text-decoration: underline;"><strong>IIBM INSTITUTE ALUMNI NETWORK</strong></span></span></h3><br>
+          <h5 class="head m-y-15"><span style="color: #ffffff;">Making a difference in Business Growth – Organisations recognize our Alumni<&nbsp;&nbsp;</span></h5>
 
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
-			<h2 style="text-align: justify;"><span style="color: #000080;"><strong><em>Making a difference in Business Growth – Organisations recognize our Alumni</em></strong></span></h2>
+
 <p style="text-align: justify;">Our Alumni are placed and promoted in higher and leadership positions in:</p>
 <p style="text-align: justify;"><span style="color: #003366;"><strong>Industries</strong> </span>&#8211; Global Consulting, Retail, Telecom, IT, ITES, Banking, FMCG, Management Consulting, Food, Pharma, Hotel, Recreation, Finance Services and much more.</p>
 <p style="text-align: justify;"><strong><span style="color: #003366;">Few MNCs</span></strong> &#8211; BMW, Deloitte, UTV, Infosys, HCL, Birlasoft, ING Vysya, AEGIS, Bajaj Finance, Aircel, Avaya.</p>

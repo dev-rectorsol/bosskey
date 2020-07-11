@@ -35,6 +35,11 @@
       border: 2px #ccc solid;
       color: #fff;
     }
+    .cource_icon{
+      font-size:30px;
+      color:red;
+      margin: 20px 0;
+    }
           </style>
 
           <section class="about inner padding-lg">
@@ -52,6 +57,7 @@
                             <div class="row">
                                <?php foreach($Allcource as $value):?>
                                  <div class="col-xs-12 col-sm-6 col-md-4">
+                                   <!-- <i class="fa fa-book cource_icon" aria-hidden="true"></i> -->
                                    <a href="<?php echo base_url('home/businessadministration/').$value['id'];?>">
                                        <div class="box">
                                          <p class="text-center"><?php echo $value['subcategory']?></p>

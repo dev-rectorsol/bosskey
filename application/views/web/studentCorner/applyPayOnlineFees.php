@@ -38,53 +38,10 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-6 m-t-30">
                         <select id="" name="course" class="form-control" required="" aria-required="true" required="required">
-                            <option value="Master Program In Business Administration-11 Months ">Master Program In Business Administration-11 Months </option>
-                            <option value="Master Program In Human Resource Management- 11 Months">Master Program In Human Resource Management- 11 Months</option>
-                            <option value="Master Program In Supply Chain Management- 11 Months ">Master Program In Supply Chain Management- 11 Months </option>
-                            <option value="Master Program In International Business- 11 Months ">Master Program In International Business- 11 Months </option>
-                            <option value="Master Program In Business Administration + 3 Certifications-11 Months">Master Program In Business Administration + 3 Certifications-11 Months</option>
-                            <option value="Master Program In Business Administration -2 Year ">Master Program In Business Administration -2 Year </option>
-                            <option value="Master Program In Business Administration- 2 Year + 3 Certifications ">Master Program In Business Administration- 2 Year + 3 Certifications </option>
-                            <option value="Executive Master Program In Business Administration- 11 Months ">Executive Master Program In Business Administration- 11 Months </option>
-                            <option value="Executive Master Program In Business Administrationr + 4 Certifications 11 Months ">Executive Master Program In Business Administrationr + 4 Certifications 11 Months </option>
-                            <option value="Executive Program in Business Management -11 Months + MSME Certified Manager ">Executive Program in Business Management -11 Months + MSME Certified Manager </option><option value="Executive Program in Business Management -11 Months + 3 Certification +MSME Certified Manager">Executive Program in Business Management -11 Months + 3 Certification +MSME Certified Manager</option>
-                            <option value="Diploma In Business Administration + Master Program In Business Administration - 2 Year">Diploma In Business Administration + Master Program In Business Administration - 2 Year</option>
-                            <option value="Diploma In Business Administration + Master Program In Business Administration -11 Months ">Diploma In Business Administration + Master Program In Business Administration -11 Months </option>
-                            <option value="Diploma In Business Administration + Executive Master Program In Business Administration + 4 Certifications ">Diploma In Business Administration + Executive Master Program In Business Administration + 4 Certifications </option>
-                            <option value="Diploma In Business Administration + Executive Master Program In Business Administration -11 Months ">Diploma In Business Administration + Executive Master Program In Business Administration -11 Months </option>
-                            <option value="Diploma In Business Administration + Master Program In Business Administration + 3 Certifications -11 Months ">Diploma In Business Administration + Master Program In Business Administration + 3 Certifications -11 Months </option>
-                            <option value="Diploma In Business Administration + Master Program In Business Administration - 2 Year + 3 Certifications ">Diploma In Business Administration + Master Program In Business Administration - 2 Year + 3 Certifications </option>
-                            <option value="Certificate in financial Analysis-6 Months ">Certificate in financial Analysis-6 Months </option>
-                            <option value="Executive Program in Financial Analysis-11 Months ">Executive Program in Financial Analysis-11 Months </option>
-                            <option value="Post Graduate Program in Financial Analysis-11 Months ">Post Graduate Program in Financial Analysis-11 Months </option>
-                            <option value="Business Analytics Certification - 6 Months ">Business Analytics Certification - 6 Months </option>
-                            <option value="Executive Program in Business Analytics-11 Months ">Executive Program in Business Analytics-11 Months </option>
-                            <option value="Post Graduate Program in Business Analytics-11 Months ">Post Graduate Program in Business Analytics-11 Months </option>
-                            <option value="Certification in Human resource management - 6 Months ">Certification in Human resource management - 6 Months </option>
-                            <option value="Post Graduate Program in Human resource management -11 Months ">Post Graduate Program in Human resource management -11 Months </option>
-                            <option value="Executive Program in strategic Human resource management -11 Months ">Executive Program in strategic Human resource management -11 Months </option>
-                            <option value="Digital Marketing Certification-6 Months ">Digital Marketing Certification-6 Months </option>
-                            <option value="Executive Program In Digital Marketing -11 Months ">Executive Program In Digital Marketing -11 Months </option>
-                            <option value="Post Graduate Program In Digital Marketing 11 Months ">Post Graduate Program In Digital Marketing 11 Months </option>
-                            <option value="Data Science Certification ">Data Science Certification </option>
-                            <option value="Executive Program in Data science ">Executive Program in Data science </option><option value="POST GRADUATE PROGRAM IN DATA SCIENCE">POST GRADUATE PROGRAM IN DATA SCIENCE</option>
-                            <option value="Post Graduate Program in Management -11 Months ">Post Graduate Program in Management -11 Months </option>
-                            <option value="Post Graduate Program in Management -11 Months + 3 Certification ">Post Graduate Program in Management -11 Months + 3 Certification </option>
-                            <option value="Post Graduate Program in Management 11 Months + 3 Certification + Best Manager Award ">Post Graduate Program in Management 11 Months + 3 Certification + Best Manager Award </option>
-                            <option value="Post Graduate Program In Business Administration -11 Months ">Post Graduate Program In Business Administration -11 Months </option>
-                            <option value="Post Graduate Program In Management + Master Program In Business Administration -2 Years">Post Graduate Program In Management + Master Program In Business Administration -2 Years</option>
-                            <option value="Diploma In Business Administration-6 Months ">Diploma In Business Administration-6 Months </option>
-                            <option value="Advanced Diploma In Business Administration-6 Months ">Advanced Diploma In Business Administration-6 Months </option>
-                            <option value="TUV SUD Post Graduate Certificate in Business Management+2 Certification ">TUV SUD Post Graduate Certificate in Business Management+2 Certification </option>
-                            <option value="TUV SOD Post Graduate Certificate In Business Management ">TUV SOD Post Graduate Certificate In Business Management </option>
-                            <option value="Post Graduate Diploma In Management- IPMA, UK">Post Graduate Diploma In Management- IPMA, UK</option>
-                            <option value="Six Sigma Green Belt Professional -6 Months ">Six Sigma Green Belt Professional -6 Months </option>
-                            <option value="Six Sigma Black Belt Professional ">Six Sigma Black Belt Professional </option>
-                            <option value="Project Management Certification - 4 Months ">Project Management Certification - 4 Months </option>
-                            <option value="Six Sigma Green Belt Professional + Six Sigma Black Belt Professional ">Six Sigma Green Belt Professional + Six Sigma Black Belt Professional </option>
-                            <option value="Six Sigma Black Belt Professional + Total Quality Management Professional ">Six Sigma Black Belt Professional + Total Quality Management Professional </option>
-                            <option value="SSGB + SSBB + TQM + PM ">SSGB + SSBB + TQM + PM </option>
-                            <option value="Web Analytics Professional Certification ">Web Analytics Professional Certification </option>
+                          <option>Select Cource</option>
+                          <?php foreach($course as $value):?>
+                           <option value="<?php echo $value['subcategory'];?>"><?php echo $value['subcategory'];?></option>
+                        <?php endforeach;?>
                         </select>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-6 m-t-30">

@@ -232,6 +232,13 @@ Enquire now
       border-radius: 10px;
       color: black;
       }
+      .cource_icon{
+        font-size:50px;
+        color:red;
+        margin: 20px 0;
+
+
+      }
         </style>
         <section class="our-cources padding-lg">
             <div class="container">
@@ -240,8 +247,11 @@ Enquire now
 
                   <?php foreach($topCource as $value):?>
                         <div class="col-xs-12 col-sm-6 col-md-3">
+
                             <a href="<?php echo base_url('home/courseDetail/').$value['id'];?>">
+
                           <div class="box">
+                           <!-- <i class="fa fa-book cource_icon" aria-hidden="true"></i><br><br> -->
                             <h5 class="text-center"><?php echo $value['category']?></h5>
                           </div>
                             </a>
